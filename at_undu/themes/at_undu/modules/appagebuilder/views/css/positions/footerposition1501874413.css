@@ -1,0 +1,35 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/*$app-image-path:     "../../../../../img/modules/appagebuilder/img/"!default; 
+$menu-image-path:    "../../../../../img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../../img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../../img/modules/leoquicklogin/img/"!default;*/
+/***********************************************************************/
+/************* Footer home 1 ***************/
+/* block_newsletter */
+@media (min-width: 1025px) {
+  .block_newsletter {
+    padding-left: 100px; }
+    .rtl .block_newsletter {
+      padding-right: 100px;
+      padding-left: inherit; } }
+
+/*# sourceMappingURL=footerposition1501874413.css.map */

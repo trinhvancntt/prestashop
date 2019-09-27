@@ -1,0 +1,15 @@
+@import "compass";
+@import "theme_variables";
+
+$image-theme-base-path: "img/";
+
+$theme-color-default: 		#8bc43f;
+$link-hover-color: 			$theme-color-default;
+
+$megamenu-link-hover-color: $theme-color-default;
+
+$product-name-hover-color: $theme-color-default;
+$button-addtocart-bg-hover: $theme-color-default;
+$button-addtocart-border-hover: $theme-color-default;
+
+@import "../_skin";

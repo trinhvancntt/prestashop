@@ -1,0 +1,144 @@
+@import "theme_variables";
+
+/************* Home 5 ***************/
+.page-home {
+	@media (min-width: 1200px){
+        @include rtl-padding-left(60px);
+        @include rtl-padding-right(60px);
+    }
+    .group-newarrivals {
+        @media (max-width: 991px){
+            @include rtl-padding-left(15px);
+            @include rtl-padding-right(15px);
+        }
+    }
+}
+
+.banner-wraprawhtml {
+	margin: 30px 15px;
+	@media (min-width: 1366px){
+  		margin: 9rem 15rem;
+  	}
+  	@media (min-width: 1024px) and (max-width: 1365px){
+  		margin: 5rem 5rem;
+  	}
+}
+
+.banner-wraph5 {
+	> div {
+		@media (min-width: 480px) and (max-width: 991px) {
+			width: 50%;
+			@include rtl-float-left();
+		}
+	}
+}
+
+/* Video */
+.ApColumn {
+	&.popup-video {
+		.video {
+			display: none;
+		}
+		.sub-title-widget {
+			@media (min-width: 992px) {
+				width: 70%;
+			}
+		}
+		.video-banner {
+			position: relative;
+			z-index: 1;
+			@media (min-width: 768px) {
+				margin-bottom: -300px;
+			}
+			> a {
+				position: relative;
+				display: block;
+
+				&:before {
+					position: absolute;
+					content: "\e071";
+				    font-size: 22px;
+				    font-family: $font-icon-4;
+				    color: $white;
+				    position: absolute;
+				    top: 0;
+				    bottom: 0;
+				    left: 0;
+				    right: 0;
+				    margin: auto;
+				    z-index: 2;
+				    text-align: center;
+				    line-height: 25px;
+				    @include size(25px,25px);
+				}
+				&:after {
+					position: absolute;
+					content: "";
+				    top: 0;
+				    bottom: 0;
+				    left: 0;
+				    right: 0;
+				    margin: auto;
+				    z-index: 1;
+				    background: $black;
+				    @include opacity(0.5);
+				    @include size(80px,80px);
+				    @include border-radius(50%);
+				    @include transition(all 0.3s ease 0s);
+				}
+				&:hover {
+					&:after {
+						@include opacity(1);
+					}
+				}
+			}
+		}
+	}
+}
+
+.fancybox-inner {
+	iframe {
+		@media (max-width: 991px){
+			width: auto;
+			height: auto;
+		}
+	}
+}
+
+
+/* Skin */
+$blue:     #6AAFE6;
+$deeppink: #FF1493;
+$green:    #8bc43f;
+$lime:     #41A317;
+$olive:    #808000;
+$purple:   #8A2CB1;
+$yellow:   #edb42c;
+
+.blue{
+
+}
+
+.deeppink{
+    
+}
+
+.green{
+    
+}
+
+.lime{
+    
+}
+
+.olive{
+    
+}
+
+.purple{
+    
+}
+
+.yellow{
+    
+}

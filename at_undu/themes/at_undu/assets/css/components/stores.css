@@ -1,0 +1,99 @@
+/*
+Error: Undefined mixin 'display'.
+        on line 13 of W:/xampp/htdocs/prestashop/at_ecoprint/themes/at_ecoprint/_dev/css/components/stores.scss, in `display'
+        from line 13 of W:/xampp/htdocs/prestashop/at_ecoprint/themes/at_ecoprint/_dev/css/components/stores.scss
+
+8:       img {
+9:         max-width: 100%;
+10:       }
+11:     }
+12:     .store-item-container {
+13:       @include display(flex);
+14:       @include justify-content(space-around);
+15:       @include align-items(center);
+16:       padding: $large-space 0;
+17:       ul {
+18:         margin-bottom: 0;
+
+Backtrace:
+W:/xampp/htdocs/prestashop/at_ecoprint/themes/at_ecoprint/_dev/css/components/stores.scss:13:in `display'
+W:/xampp/htdocs/prestashop/at_ecoprint/themes/at_ecoprint/_dev/css/components/stores.scss:13
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Ruby24-x64/bin/compass:23:in `load'
+C:/Ruby24-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'display'.\A         on line 13 of W:/xampp/htdocs/prestashop/at_ecoprint/themes/at_ecoprint/_dev/css/components/stores.scss, in `display'\A         from line 13 of W:/xampp/htdocs/prestashop/at_ecoprint/themes/at_ecoprint/_dev/css/components/stores.scss\A \A 8:       img {\A 9:         max-width: 100%;\A 10:       }\A 11:     }\A 12:     .store-item-container {\A 13:       @include display(flex);\A 14:       @include justify-content(space-around);\A 15:       @include align-items(center);\A 16:       padding: $large-space 0;\A 17:       ul {\A 18:         margin-bottom: 0;"; }

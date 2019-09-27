@@ -1,0 +1,125 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/* $app-image-path:     "../../../../assets/img/modules/appagebuilder/img/"!default;  
+$menu-image-path:    "../../../../assets/img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../assets/img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../assets/img/modules/leoquicklogin/img/"!default;
+ */
+/***********************************************************************/
+/************* Home 3 ***************/
+@media (min-width: 1200px) {
+  .page-home .group-boxhtml,
+  .page-home .group-bestseller,
+  .page-home .wrapper {
+    margin-left: 60px;
+    margin-right: 60px; }
+    .rtl .page-home .group-boxhtml, .rtl
+    .page-home .group-bestseller, .rtl
+    .page-home .wrapper {
+      margin-right: 60px;
+      margin-left: inherit; }
+    .rtl .page-home .group-boxhtml, .rtl
+    .page-home .group-bestseller, .rtl
+    .page-home .wrapper {
+      margin-left: 60px;
+      margin-right: inherit; } }
+@media (min-width: 1200px) {
+  .page-home .group-newarrivals,
+  .page-home .no-margin {
+    padding-left: 60px;
+    padding-right: 60px; }
+    .rtl .page-home .group-newarrivals, .rtl
+    .page-home .no-margin {
+      padding-right: 60px;
+      padding-left: inherit; }
+    .rtl .page-home .group-newarrivals, .rtl
+    .page-home .no-margin {
+      padding-left: 60px;
+      padding-right: inherit; } }
+@media (max-width: 991px) {
+  .page-home .group-bestseller,
+  .page-home .group-newarrivals {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .rtl .page-home .group-bestseller, .rtl
+    .page-home .group-newarrivals {
+      padding-right: 15px;
+      padding-left: inherit; }
+    .rtl .page-home .group-bestseller, .rtl
+    .page-home .group-newarrivals {
+      padding-left: 15px;
+      padding-right: inherit; } }
+
+.page-home {
+  border-bottom: 1px solid #ededed; }
+  .page-home .group-bestseller .title_block {
+    margin: 0 0 70px;
+    text-align: left; }
+    .rtl .page-home .group-bestseller .title_block {
+      text-align: right; }
+    @media (max-width: 991px) {
+      .page-home .group-bestseller .title_block {
+        margin-bottom: 30px; } }
+  .page-home .group-bestseller .tabs-top .nav-tabs {
+    text-align: left; }
+    .rtl .page-home .group-bestseller .tabs-top .nav-tabs {
+      text-align: right; }
+    @media (min-width: 1024px) {
+      .page-home .group-bestseller .tabs-top .nav-tabs {
+        position: absolute;
+        top: 10px;
+        z-index: 1;
+        right: 0; }
+        .rtl .page-home .group-bestseller .tabs-top .nav-tabs {
+          left: 0;
+          right: auto; }
+        .page-home .group-bestseller .tabs-top .nav-tabs > li a {
+          font-size: 15px; } }
+
+.box-testimonial .block-carousel-image-container {
+  padding: 100px 15%; }
+
+.latest-blogs .block_content {
+  margin-top: 50px; }
+
+/* Skin */
+.blue .group-aboutservices .box-service h4 a:hover {
+  color: #6AAFE6; }
+
+.deeppink .group-aboutservices .box-service h4 a:hover {
+  color: #FF1493; }
+
+.green .group-aboutservices .box-service h4 a:hover {
+  color: #8bc43f; }
+
+.lime .group-aboutservices .box-service h4 a:hover {
+  color: #41A317; }
+
+.olive .group-aboutservices .box-service h4 a:hover {
+  color: #808000; }
+
+.purple .group-aboutservices .box-service h4 a:hover {
+  color: #8A2CB1; }
+
+.yellow .group-aboutservices .box-service h4 a:hover {
+  color: #edb42c; }
+
+/*# sourceMappingURL=profile1535817182.css.map */

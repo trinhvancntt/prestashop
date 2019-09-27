@@ -1,0 +1,82 @@
+@import "theme_variables";
+
+/************** Header home 8 ***************/
+.header-top {
+	@media (min-width: 1200px){
+        margin: 0 60px;
+    }
+}
+.header-flex{
+	padding: 30px 15px;
+	@media (max-width: 991px){
+		padding: 15px;
+	}
+}
+
+.left-header {
+	.logo {
+		@media (max-width: 991px){
+			@include rtl-margin-left(45px);
+		}
+	}
+}
+
+.ApColumn {
+	.menu-bar  {
+		padding-top: 10px;
+		@include rtl-padding-right(60px);
+	}
+}
+
+@media (min-width: 1200px){
+	.menu-rightsidebar {
+		.currency-selector,.language-selector-wrapper{
+			@include rtl-text-align-left();
+			@include rtl-float-left();
+			clear: both;
+			margin: 40px 0;
+			width: 50%;
+			.popup-title{
+				padding: 16px 10px;
+				min-width: 112px;
+				border: 1px solid $white;
+				color: $white;
+				i.icon-arrow-down{
+					position: absolute;
+					bottom: 50%;
+					@include rtl-right(10px);
+					@include transform(translateY(50%));
+				}
+			}
+			.popup-content{
+				right: inherit;
+				top: inherit;
+				bottom: 100%;
+				@include rtl-left(0);
+			}
+		}
+	}
+}
+
+.leo-megamenu {
+	.navbar-toggler {
+		@media (max-width: 991px){
+			width: inherit;
+			border-color: transparent;
+			background-color: transparent;
+		}
+	}
+}
+
+.col-info {
+  .popup-over a.popup-title, 
+  .button-list .ap-btn-wishlist, 
+  #cart-block .header,
+  #leo_search_block_top #show_search,
+  .menu-bar {
+    @media (max-width: 991px){
+    	min-width: 22px;
+      	background-color: transparent;
+    }
+  }
+}

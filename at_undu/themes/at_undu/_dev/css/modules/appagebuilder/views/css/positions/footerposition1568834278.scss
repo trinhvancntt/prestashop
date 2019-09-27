@@ -1,0 +1,26 @@
+@import "theme_variables";
+
+// ************* Footer home 6 ***************
+
+.footer-container {
+	margin-bottom: 0;
+	background-color: transparent;
+	@media (min-width: 1200px){
+        @include rtl-margin-left(60px);
+        @include rtl-margin-right(60px);
+    }
+    @media (max-width: 991px){
+        @include rtl-padding-left(15px);
+        @include rtl-padding-right(15px);
+    }
+    .block {
+    	.title_block {
+    		color: $theme-color-secondary;
+    		padding: 0 0 20px;
+    	}
+    }
+}
+.footer-bottom {
+	text-align: center;
+	padding: 40px 0;
+}

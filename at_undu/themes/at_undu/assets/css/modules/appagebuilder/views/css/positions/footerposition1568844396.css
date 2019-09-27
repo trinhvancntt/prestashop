@@ -1,0 +1,53 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/* $app-image-path:     "../../../../assets/img/modules/appagebuilder/img/"!default;  
+$menu-image-path:    "../../../../assets/img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../assets/img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../assets/img/modules/leoquicklogin/img/"!default;
+ */
+/***********************************************************************/
+/************* Footer home 7 ***************/
+.footer-container {
+  background-color: #333333;
+  margin: 100px 0 0;
+  padding: 0 15px; }
+  @media (min-width: 1200px) {
+    .footer-container {
+      padding-left: 60px;
+      padding-right: 60px; }
+      .rtl .footer-container {
+        padding-right: 60px;
+        padding-left: inherit; }
+      .rtl .footer-container {
+        padding-left: 60px;
+        padding-right: inherit; } }
+  @media (max-width: 991px) {
+    .footer-container {
+      padding-left: 15px;
+      padding-right: 15px; }
+      .rtl .footer-container {
+        padding-right: 15px;
+        padding-left: inherit; }
+      .rtl .footer-container {
+        padding-left: 15px;
+        padding-right: inherit; } }
+
+/*# sourceMappingURL=footerposition1568844396.css.map */

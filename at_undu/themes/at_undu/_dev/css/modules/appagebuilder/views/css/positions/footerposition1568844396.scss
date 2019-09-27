@@ -1,0 +1,17 @@
+@import "theme_variables";
+
+/************* Footer home 7 ***************/
+
+.footer-container {
+	background-color: $theme-color-secondary;
+	margin: 100px 0 0;
+	padding: 0 15px;
+	@media (min-width: 1200px){
+        @include rtl-padding-left(60px);
+        @include rtl-padding-right(60px);
+    }
+    @media (max-width: 991px){
+        @include rtl-padding-left(15px);
+        @include rtl-padding-right(15px);
+    }
+}

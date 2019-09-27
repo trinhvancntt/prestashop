@@ -1,0 +1,173 @@
+@import "theme_variables";
+
+/************* Home 3 ***************/
+.page-home {
+    .group-boxhtml,
+    .group-bestseller,
+    .wrapper {
+        @media (min-width: 1200px){
+            @include rtl-margin-left(60px);
+            @include rtl-margin-right(60px);
+        }
+    }
+    .group-newarrivals,
+    .no-margin {
+        @media (min-width: 1200px){
+            @include rtl-padding-left(60px);
+            @include rtl-padding-right(60px);
+        }
+    }
+    .group-bestseller,
+    .group-newarrivals {
+        @media (max-width: 991px){
+            @include rtl-padding-left(15px);
+            @include rtl-padding-right(15px);
+        }
+    }
+}
+.page-home {
+    border-bottom: $main-border;
+    .group-bestseller {
+        .title_block {
+            margin: 0 0 70px;
+            @include rtl-text-align-left();
+            @media (max-width: 991px){
+                margin-bottom: 30px;
+            }
+        }
+        .tabs-top {
+            .nav-tabs {
+                @include rtl-text-align-left();
+                @media (min-width: 1024px){
+                    position: absolute;
+                    top: 10px;
+                    z-index: 1;
+                    @include rtl-right(0);
+                    > li {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.box-testimonial {
+    .block-carousel-image-container {
+        padding: 100px 15%;
+    }
+}
+
+.latest-blogs {
+    .block_content {
+        margin-top: 50px;
+    }
+}
+
+/* Skin */
+$blue:     #6AAFE6;
+$deeppink: #FF1493;
+$green:    #8bc43f;
+$lime:     #41A317;
+$olive:    #808000;
+$purple:   #8A2CB1;
+$yellow:   #edb42c;
+
+.blue{
+    .group-aboutservices {
+        .box-service {
+            h4 {
+                a {
+                    &:hover {
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.deeppink{
+    .group-aboutservices {
+        .box-service {
+            h4 {
+                a {
+                    &:hover {
+                        color: $deeppink;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.green{
+    .group-aboutservices {
+        .box-service {
+            h4 {
+                a {
+                    &:hover {
+                        color: $green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.lime{
+    .group-aboutservices {
+        .box-service {
+            h4 {
+                a {
+                    &:hover {
+                        color: $lime;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.olive{
+    .group-aboutservices {
+        .box-service {
+            h4 {
+                a {
+                    &:hover {
+                        color: $olive;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.purple{
+    .group-aboutservices {
+        .box-service {
+            h4 {
+                a {
+                    &:hover {
+                        color: $purple;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.yellow{
+    .group-aboutservices {
+        .box-service {
+            h4 {
+                a {
+                    &:hover {
+                        color: $yellow;
+                    }
+                }
+            }
+        }
+    }
+}

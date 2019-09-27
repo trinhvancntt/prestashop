@@ -1,0 +1,157 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/*$app-image-path:     "../../../../../img/modules/appagebuilder/img/"!default; 
+$menu-image-path:    "../../../../../img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../../img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../../img/modules/leoquicklogin/img/"!default;*/
+/***********************************************************************/
+/************* Home 3 ***************/
+body.layout-boxed-lg #page {
+  padding: 0; }
+  body.layout-boxed-lg #page .header-container {
+    padding: 0 30px; }
+
+#product #wrapper > .container, #product .breadcrumb > .container, #category #wrapper > .container, #category .breadcrumb > .container, #module-leoblog-list #wrapper > .container, #module-leoblog-list .breadcrumb > .container, #module-leoblog-blog #wrapper > .container, #module-leoblog-blog .breadcrumb > .container, #module-leoblog-category #wrapper > .container, #module-leoblog-category .breadcrumb > .container {
+  max-width: 1750px;
+  width: auto; }
+
+#page {
+  padding: 0 100px; }
+  @media (max-width: 1500px) {
+    #page {
+      padding: 0 30px; } }
+  @media (max-width: 1199px) {
+    #page {
+      padding: 0 15px; } }
+
+.page-home .ApColumn .title_block {
+  margin: 60px 0 40px; }
+
+.ApColumn {
+  position: relative;
+  /* manufacturers_block */ }
+  .ApColumn .manufacturers_block {
+    margin-top: 50px;
+    padding-bottom: 30px; }
+
+/* services */
+@media (max-width: 767px) {
+  .box-services .ApColumn .block {
+    margin-bottom: 0; } }
+
+.services-item {
+  background-color: #fafafa;
+  padding: 35px 10px;
+  text-align: center; }
+  .services-item.services-item2 {
+    background-color: #e9e8e8; }
+  .services-item i {
+    font-size: 50px;
+    color: #f43434; }
+  .services-item .icon-box {
+    margin-bottom: 15px; }
+  .services-item h4 {
+    text-transform: uppercase; }
+  .services-item p {
+    margin-bottom: 0; }
+
+/* box-imagehtml */
+.box-imagehtml {
+  position: relative; }
+  .box-imagehtml .box-html {
+    position: absolute;
+    top: 165px;
+    left: 200px;
+    text-align: left; }
+    .rtl .box-imagehtml .box-html {
+      right: 200px;
+      left: auto; }
+    .rtl .box-imagehtml .box-html {
+      text-align: right; }
+    @media (min-width: 1366px) and (max-width: 1500px) {
+      .box-imagehtml .box-html {
+        top: 90px;
+        left: 135px; }
+        .rtl .box-imagehtml .box-html {
+          right: 135px;
+          left: auto; } }
+    @media (min-width: 992px) and (max-width: 1200px) {
+      .box-imagehtml .box-html {
+        top: 60px;
+        left: 60px; }
+        .rtl .box-imagehtml .box-html {
+          right: 60px;
+          left: auto; } }
+  @media (max-width: 991px) {
+    .box-imagehtml img {
+      display: none; }
+    .box-imagehtml .box-html {
+      position: inherit;
+      text-align: center;
+      padding: 30px 10px;
+      background-color: #f3a865; } }
+  .box-imagehtml h1 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+    @media (max-width: 1024px) {
+      .box-imagehtml h1 {
+        font-size: 26px;
+        line-height: 36px; } }
+  .box-imagehtml p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000; }
+    @media (max-width: 1024px) {
+      .box-imagehtml p {
+        font-size: 14px; } }
+  .box-imagehtml .btn {
+    color: #000000;
+    border: 1px solid #000000;
+    /*&:hover {
+        border: $main-border-hover;
+    }*/ }
+
+/* Skin */
+.blue .services-item i {
+  color: #6AAFE6; }
+
+.deeppink .services-item i {
+  color: #FF1493; }
+
+.green .services-item i {
+  color: #8bc43f; }
+
+.lime .services-item i {
+  color: #41A317; }
+
+.olive .services-item i {
+  color: #808000; }
+
+.purple .services-item i {
+  color: #8A2CB1; }
+
+.yellow .services-item i {
+  color: #edb42c; }
+
+/*# sourceMappingURL=profile1535817182.css.map */

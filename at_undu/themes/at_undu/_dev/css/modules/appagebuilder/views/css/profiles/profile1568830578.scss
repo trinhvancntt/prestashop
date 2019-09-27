@@ -1,0 +1,115 @@
+@import "theme_variables";
+
+/************* Home 7 ***************/
+.page-home {
+	@media (min-width: 1200px){
+        @include rtl-padding-left(60px);
+        @include rtl-padding-right(60px);
+    }
+}
+
+.banner-wraph7 {
+	position: relative;
+	&.left {
+		.image_description {
+			@include rtl-left(60px);
+		}
+	}
+	&.right {
+		.image_description {
+			@include rtl-right(60px);
+		}
+	}
+	&.effect-julia {
+		.image_description {
+			@media (min-width: 1200px){
+				bottom: 32%;
+			}
+		}
+	}
+	.image_description {
+		position: absolute;
+		bottom: 60px;
+	}
+	h3 {
+		margin-bottom: 20px;
+		line-height: 24px;
+	}
+	a {
+		text-transform: uppercase;
+		color: $theme-color-fourth;
+		font-weight: 600;
+		&:hover {
+			color: $theme-color-default;
+		}
+	}
+}
+
+.banner-wraprawhtml {
+	padding: 100px 15px;
+}
+
+/* Skin */
+$blue:     #6AAFE6;
+$deeppink: #FF1493;
+$green:    #8bc43f;
+$lime:     #41A317;
+$olive:    #808000;
+$purple:   #8A2CB1;
+$yellow:   #edb42c;
+
+.blue{
+	.banner-wraph7 {
+		a {
+			color: $blue;
+		}
+	}
+}
+
+.deeppink{
+	.banner-wraph7 {
+		a {
+			color: $deeppink;
+		}
+	}
+}
+
+.green{
+	.banner-wraph7 {
+		a {
+			color: $green;
+		}
+	}
+}
+
+.lime{
+	.banner-wraph7 {
+		a {
+			color: $lime;
+		}
+	}
+}
+
+.olive{
+	.banner-wraph7 {
+		a {
+			color: $olive;
+		}
+	}
+}
+
+.purple{
+	.banner-wraph7 {
+		a {
+			color: $purple;
+		}
+	}
+}
+
+.yellow{
+	.banner-wraph7 {
+		a {
+			color: $yellow;
+		}
+	}
+}

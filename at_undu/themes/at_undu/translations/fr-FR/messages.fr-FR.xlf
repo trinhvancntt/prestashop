@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\hook\leoquicklogin.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="99dea78007133396a7b8ed70578ac6ae">
+        <source>Login</source>
+        <target>S'identifier</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\hook\leoquicklogin.tpl:52</note>
+      </trans-unit>
+      <trans-unit id="d520781e19eed1a7e6bac55fae6c271f">
+        <source>View My Account</source>
+        <target>Voir mon compte</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\hook\leoquicklogin.tpl:16</note>
+      </trans-unit>
+      <trans-unit id="c87aacf5673fada1108c9f809d354311">
+        <source>Sign out</source>
+        <target>Déconnexion</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\hook\leoquicklogin.tpl:24</note>
+      </trans-unit>
+      <trans-unit id="b7f064b8ea388f015b30d851310a239c">
+        <source>Quick Login</source>
+        <target>Connexion rapide</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\hook\leoquicklogin.tpl:50</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="0ba7583639a274c434bbe6ef797115a4">
+        <source>Register</source>
+        <target>Registre</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:14</note>
+      </trans-unit>
+      <trans-unit id="61510747c34b6b7f74d31eb190499248">
+        <source>Existing Account Login</source>
+        <target>Connexion au compte existant</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:21</note>
+      </trans-unit>
+      <trans-unit id="15cb3b43610751d8b2e241abfba63e10">
+        <source>Login to your account</source>
+        <target>Connectez-vous à votre compte</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:24</note>
+      </trans-unit>
+      <trans-unit id="643a860f992333b8600ea264aca7c4fc">
+        <source>Email Address</source>
+        <target>Adresse électronique</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:103</note>
+      </trans-unit>
+      <trans-unit id="dc647eb65e6711e155375218212b3964">
+        <source>Password</source>
+        <target>Mot de passe</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:106</note>
+      </trans-unit>
+      <trans-unit id="e857817b07c27f3c57caa6c40f7499d4">
+        <source>Remember Me</source>
+        <target>Souviens-toi de moi</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="9ec54ec336b65da6179cf750de33ecd7">
+        <source>Forgot Password</source>
+        <target>Mot de passe oublié</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:46</note>
+      </trans-unit>
+      <trans-unit id="952998528c20798fbd22b49d505a29d5">
+        <source>No account? Create one here</source>
+        <target>Pas de compte? En créer un ici</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:60</note>
+      </trans-unit>
+      <trans-unit id="6072e83b7f35887c76e64920bd370f4a">
+        <source>Reset Password</source>
+        <target>Réinitialiser le mot de passe</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:79</note>
+      </trans-unit>
+      <trans-unit id="15f7f61f5eaae493833d71c127eb9f05">
+        <source>New Account Register</source>
+        <target>Nouveau compte s'inscrire</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:89</note>
+      </trans-unit>
+      <trans-unit id="bc910f8bdf70f29374f496f05be0330c">
+        <source>First Name</source>
+        <target>Prénom</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:97</note>
+      </trans-unit>
+      <trans-unit id="77587239bf4c54ea493c7033e1dbf636">
+        <source>Last Name</source>
+        <target>Nom de famille</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:100</note>
+      </trans-unit>
+      <trans-unit id="2fe4fe0a0ebea41ce43eb3dc3fce4ea3">
+        <source>Create an Account</source>
+        <target>Créer un compte</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:114</note>
+      </trans-unit>
+      <trans-unit id="21bdc5689c12595ae14298354d5550d5">
+        <source>Already have an account?</source>
+        <target>Vous avez déjà un compte?</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:119</note>
+      </trans-unit>
+      <trans-unit id="88527c251ccdf30e9191e77df2b0a50b">
+        <source>Log in instead</source>
+        <target>Connectez-vous à la place</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:120</note>
+      </trans-unit>
+      <trans-unit id="3a2d5fe857d8f9541136a124c2edec6c">
+        <source>Or</source>
+        <target>Ou</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:121</note>
+      </trans-unit>
+      <trans-unit id="3b5b0f1e26d98a827ef82af202c2e85b">
+        <source>Reset password</source>
+        <target>Réinitialiser le mot de passe</target>
+        <note>Context:
+File: W:\xampp\htdocs\prestashop\at_vatike\themes\at_vatike\modules\leoquicklogin\views\templates\front\leoquicklogin_form.tpl:122</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

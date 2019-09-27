@@ -1,0 +1,92 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/* $app-image-path:     "../../../../assets/img/modules/appagebuilder/img/"!default;  
+$menu-image-path:    "../../../../assets/img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../assets/img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../assets/img/modules/leoquicklogin/img/"!default;
+ */
+/***********************************************************************/
+/************* Home 7 ***************/
+@media (min-width: 1200px) {
+  .page-home {
+    padding-left: 60px;
+    padding-right: 60px; }
+    .rtl .page-home {
+      padding-right: 60px;
+      padding-left: inherit; }
+    .rtl .page-home {
+      padding-left: 60px;
+      padding-right: inherit; } }
+
+.banner-wraph7 {
+  position: relative; }
+  .banner-wraph7.left .image_description {
+    left: 60px; }
+    .rtl .banner-wraph7.left .image_description {
+      right: 60px;
+      left: auto; }
+  .banner-wraph7.right .image_description {
+    right: 60px; }
+    .rtl .banner-wraph7.right .image_description {
+      left: 60px;
+      right: auto; }
+  @media (min-width: 1200px) {
+    .banner-wraph7.effect-julia .image_description {
+      bottom: 32%; } }
+  .banner-wraph7 .image_description {
+    position: absolute;
+    bottom: 60px; }
+  .banner-wraph7 h3 {
+    margin-bottom: 20px;
+    line-height: 24px; }
+  .banner-wraph7 a {
+    text-transform: uppercase;
+    color: #616da7;
+    font-weight: 600; }
+    .banner-wraph7 a:hover {
+      color: #df6c4f; }
+
+.banner-wraprawhtml {
+  padding: 100px 15px; }
+
+/* Skin */
+.blue .banner-wraph7 a {
+  color: #6AAFE6; }
+
+.deeppink .banner-wraph7 a {
+  color: #FF1493; }
+
+.green .banner-wraph7 a {
+  color: #8bc43f; }
+
+.lime .banner-wraph7 a {
+  color: #41A317; }
+
+.olive .banner-wraph7 a {
+  color: #808000; }
+
+.purple .banner-wraph7 a {
+  color: #8A2CB1; }
+
+.yellow .banner-wraph7 a {
+  color: #edb42c; }
+
+/*# sourceMappingURL=profile1568830578.css.map */

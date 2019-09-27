@@ -1,0 +1,44 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/*$app-image-path:     "../../../../../img/modules/appagebuilder/img/"!default; 
+$menu-image-path:    "../../../../../img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../../img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../../img/modules/leoquicklogin/img/"!default;*/
+/***********************************************************************/
+/************** Header home 1 ***************/
+@media (max-width: 568px) {
+  .header-logo {
+    text-align: center; } }
+.leo-megamenu .navbar-toggler {
+  margin-top: 10px; }
+  .leo-megamenu .navbar-toggler:before {
+    color: #FFFFFF; }
+
+.col-info .popup-over a.popup-title i,
+.col-info .button-list .ap-btn-wishlist i,
+.col-info #cart-block .header i,
+.col-info #leo_search_block_top #show_search i {
+  color: #FFFFFF; }
+
+.ApColumn .menu-bar #click_show_menu {
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=headerposition1501866647.css.map */

@@ -1,0 +1,96 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/*$app-image-path:     "../../../../../img/modules/appagebuilder/img/"!default; 
+$menu-image-path:    "../../../../../img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../../img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../../img/modules/leoquicklogin/img/"!default;*/
+/***********************************************************************/
+/************* Home 4 ***************/
+body.layout-boxed-lg #page .box-imagehtml .box-html {
+  top: 30px; }
+
+.page-home .ApColumn .title_block {
+  margin: 80px 0 40px; }
+.page-home .ApColumn .tabs-top .title_block {
+  margin: 80px 0 20px; }
+
+/* .box-homehtml */
+.box-homehtml {
+  background-color: #f9f9f9; }
+  @media (max-width: 767px) {
+    .box-homehtml {
+      width: inherit;
+      max-width: 960px;
+      margin: 0px auto !important;
+      display: block; } }
+
+.banner-texth4 {
+  padding: 30px;
+  text-align: center; }
+  .banner-texth4 h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px; }
+    @media (min-width: 768px) {
+      .banner-texth4 h4 {
+        margin-bottom: 30px; } }
+  .banner-texth4 p {
+    line-height: 26px; }
+  .banner-texth4 .author {
+    color: black;
+    font-size: 30px;
+    font-family: "Rage", sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+    display: inline-block; }
+
+/* banner-imageh4 */
+.banner-imageh4 {
+  position: absolute;
+  top: 50px;
+  left: 50px; }
+  .rtl .banner-imageh4 {
+    right: 50px;
+    left: auto; }
+  .banner-imageh4 h6 {
+    font-weight: 500;
+    text-transform: uppercase; }
+  .banner-imageh4 h4 {
+    font-size: 32px;
+    font-weight: 600; }
+
+/* box-imagehtml */
+@media (min-width: 992px) and (max-width: 1600px) {
+  .box-imagehtml .box-html {
+    top: 50px; } }
+@media (max-width: 1024px) {
+  .box-imagehtml img {
+    display: none; }
+  .box-imagehtml .box-html {
+    position: inherit;
+    padding: 30px 10px;
+    background-color: #166f7d; } }
+
+/* footer */
+.footer-container {
+  margin-top: 0; }
+
+/*# sourceMappingURL=profile1535922143.css.map */

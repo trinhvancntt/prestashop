@@ -1,0 +1,143 @@
+@import "theme_variables";
+
+// ************* Header home 2 ***************
+/* box-header-2 */
+.header-top {
+  position: relative;
+  z-index: 2;
+  margin: 0 60px;
+  @media (max-width: 1024px){
+    margin: 0 15px;
+  }
+  @media (max-width: 767px){
+    padding: 0 15px;
+    margin: 0;
+  }
+}
+.box-header-2 {
+  .col-logo {
+    margin-top: 35px;
+     @media (max-width: 767px){
+        text-align: center;
+        margin-top: 25px;
+     }
+  }
+  .col-info {
+    height: 120px;
+    @media (max-width: 767px){
+      height: 100px;
+    }
+  }
+  .menu-center {
+    text-align: center;
+    @media (max-width: 767px){
+       @include rtl-text-align-left();
+    }
+  }
+}
+.leo-megamenu{
+  .navbar-toggler {
+    border-color: transparent;
+    margin-top: 35px;
+    @media (max-width: 767px){
+      margin-top: 25px;
+    }
+  }
+  .navbar-nav{
+    > li{
+      float: none;
+      display: inline-block;
+      > a{
+        padding: 45px 15px;
+        &:hover,
+        &:focus {
+          color: $theme-color-fourth;
+        }
+      }
+      &.active,
+      &:hover,
+      &:focus {
+        > a {
+          color: $theme-color-fourth;
+        }
+      }
+      &.new{
+        .sub-title{
+          top: 10px;
+        }
+      }
+    }
+  }
+  .dropdown-menu {
+    li {
+      a {
+        &:hover {
+          color: $theme-color-fourth;
+          &:before {
+            background: $theme-color-fourth;
+          }
+        }
+        > .menu-title:hover {
+          color: $theme-color-fourth;
+        }
+      }
+    }
+  }
+}
+.page-index {
+  .box-header-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    @media (max-width: 767px){
+      position: inherit;
+    }
+  }
+}
+
+#cart-block {
+  .cart-preview {
+    .cart-quantity {
+      background: $theme-color-fourth;
+    }
+  }
+}
+
+/* Skin */
+$blue:     #6AAFE6;
+$deeppink: #FF1493;
+$green:    #8bc43f;
+$lime:     #41A317;
+$olive:    #808000;
+$purple:   #8A2CB1;
+$yellow:   #edb42c;
+
+.blue{
+  
+}
+
+.deeppink{
+  
+}
+
+.green{
+  
+}
+
+.lime{
+  
+}
+
+.olive{
+  
+}
+
+.purple{
+  
+}
+
+.yellow{
+  
+}

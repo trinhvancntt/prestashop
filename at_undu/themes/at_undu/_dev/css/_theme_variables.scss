@@ -1,0 +1,114 @@
+@import "partials/variables";
+
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : leo !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : block!default;
+$block-selector          : block !default;
+$block-heading-selector  : title_block !default;
+$block-content-selector  : block_content !default;
+
+//------- Path Variables
+$image-path:                   "images/"!default; 
+$image-theme-base-path:        "../img/"!default;
+$image-base-path:              "../../../img/"!default;
+$image-module-path:            "../../../img/icon/"!default; 
+$module-path:                  "../../../modules/"!default; 
+
+//------- Modules Path Variables (Close when upload svn)
+$app-image-path:     "../../../../../img/modules/appagebuilder/img/"!default; 
+$menu-image-path:    "../../../../../img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../../img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../../img/modules/leoquicklogin/img/"!default;
+//------- Modules Path Variables for SH (Open when upload svn)
+/* $app-image-path:     "../../../../assets/img/modules/appagebuilder/img/"!default;  
+$menu-image-path:    "../../../../assets/img/modules/leobootstrapmenu/img/"!default;
+$slide-image-path:   "../../../../assets/img/modules/leoslideshow/img/"!default;
+$login-image-path:   "../../../../assets/img/modules/leoquicklogin/img/"!default;
+ */
+/***********************************************************************/
+// some basic colors
+
+$white:			 				    #FFFFFF !default; 
+$black:							    #000000 !default;
+$blue:                              #6087D2 !default; 
+$wild-sand:                         #ffffff !default;  
+$silver:                            #f5f5f5 !default;  
+$red:            					#f7525a !default;
+$red-light:            				#ff9999 !default;
+$yellow-light:           			#fcd54c !default;
+$nocolor:							transparent!default;
+
+// Variables Font Family 
+// ========================================================================
+
+$font-family-tertiary  :            $font-family-base !default;		// font for menu
+$font-family-septenary : 			$font-family-base !default; 		// font for slideshow
+$font-family-senary    : 		 	$font-family-base !default;		// font for Price
+$font-family-senary-1    : 		 	$font-family-base !default;
+
+
+$font-icon: 			             "FontAwesome" !default;
+$font-icon-2:                        "Material Icons" !default;
+$font-icon-3:                        "themify" !default;
+$font-icon-4:                        "simple-line-icons" !default;
+$font-icon-5:                        "nova-icons" !default;
+
+//-------- Variables defined for Themes + Skins
+
+$theme-color-default : 			    #df6c4f !default;
+$theme-color-secondary :			#333333 !default; // Category page
+$theme-color-tertiary:              #909090 !default;
+$theme-color-senary:                #666666 !default; // Product Page
+$theme-color-senary-1:              #909090 !default; // Product Page
+$theme-color-fourth:                #616da7 !default;
+
+
+
+//-------- BORDERS
+$border-color:						#ededed !default;
+$main-border:						1px solid $border-color !default;
+$main-border-hover:                 1px solid $theme-color-default !default;
+
+
+//-------- Variables RTL 
+$rtl-left : left;
+$rtl-right : right;
+$ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+// LAYOUT VARIABLES 
+// ========================================================================
+
+// Header Nav 
+$header-nav-outside-bg: 				#f8f8f8 !default;
+$header-nav-bg: 						$nocolor !default;
+$header-nav-color: 						$black !default;
+$header-nav-font-size: 					$font-size-lg !default;
+$header-nav-height:                     36px !default;
+
+// Header Top
+$header-top-outside-bg: 			    $white !default; 
+$header-top-bg: 			 		    $nocolor !default;
+$header-top-color:					    $black !default;
+
+// Footer
+$footer-outside-bg:		  		        #f2f2f2 !default;
+$footer-bg: 						    $footer-outside-bg !default;
+$footer-color: 						    $theme-color-tertiary !default;
+
+$footer-top-outside-bg:                 #f3f3f3 !default;
+$footer-top-bg: 						$footer-top-outside-bg !default;
+$footer-top-color: 						$footer-color !default;
+
+$footer-center-outside-bg:              $footer-outside-bg !default;
+$footer-center-bg: 						$nocolor !default;
+$footer-center-color: 					$footer-color !default;
+
+$footer-bottom-outside-bg:              #f2f2f2 !default;
+$footer-bottom-bg: 						$nocolor !default;
+$footer-bottom-color: 					$footer-color !default;
