@@ -22700,7 +22700,7 @@ input[type="file"] {
     .leo-megamenu .dropdown-menu li {
       line-height: 25px;
       float: none;
-      border-bottom: 1px solid #ededed; }
+      border-bottom: 1px dashed #ededed; }
       .leo-megamenu .dropdown-menu li:last-child {
         border-bottom: none; }
       .leo-megamenu .dropdown-menu li + .nav-item {
@@ -27205,7 +27205,6 @@ $login-image-path:   "../../../../assets/img/modules/leoquicklogin/img/"!default
         margin-left: 0;
         margin-right: inherit; }
   #category .breadcrumb {
-    background: transparent;
     margin-bottom: 60px; }
     @media (max-width: 991px) {
       #category .breadcrumb {

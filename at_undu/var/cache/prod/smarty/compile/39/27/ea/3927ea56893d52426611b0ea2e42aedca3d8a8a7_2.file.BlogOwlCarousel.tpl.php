@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 02:47:30
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:11
   from 'W:\xampp\htdocs\prestashop\at_undu\themes\at_undu\modules\appagebuilder\views\templates\hook\letter-blog\BlogOwlCarousel.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68c68268c904_35686637',
+  'unifunc' => 'content_5d8db4a791d994_62366326',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68c68268c904_35686637 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a791d994_62366326 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- @file modules\appagebuilder\views\templates\hook\BlogOwlCarousel -->
 <div class="owl-row">
 

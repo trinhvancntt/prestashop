@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 01:12:01
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:10
   from 'W:\xampp\htdocs\prestashop\at_undu\modules\ps_legalcompliance\views\templates\hook\hookDisplayProductPriceBlock_before_price.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68b0216a0184_28622742',
+  'unifunc' => 'content_5d8db4a6a8cc95_04273511',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68b0216a0184_28622742 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a6a8cc95_04273511 (Smarty_Internal_Template $_smarty_tpl) {
 if (isset($_smarty_tpl->tpl_vars['smartyVars']->value)) {?>
         <?php if (isset($_smarty_tpl->tpl_vars['smartyVars']->value['before_price']) && isset($_smarty_tpl->tpl_vars['smartyVars']->value['before_price']['from_str_i18n'])) {?>
         <span class="aeuc_from_label">

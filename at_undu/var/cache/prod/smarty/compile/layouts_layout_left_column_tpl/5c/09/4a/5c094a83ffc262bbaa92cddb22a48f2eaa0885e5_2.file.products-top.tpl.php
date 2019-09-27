@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-25 01:49:09
+/* Smarty version 3.1.33, created on 2019-09-27 04:22:20
   from 'W:\xampp\htdocs\prestashop\at_undu\themes\at_undu\templates\catalog\_partials\products-top.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8affd5804583_18411415',
+  'unifunc' => 'content_5d8dc6bc193e99_53832249',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,12 +22,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/sort-orders.tpl' => 1,
   ),
 ),false)) {
-function content_5d8affd5804583_18411415 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8dc6bc193e99_53832249 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 if (!isset($_smarty_tpl->tpl_vars['LISTING_GRID_MODE']->value) || !isset($_smarty_tpl->tpl_vars['LISTING_PRODUCT_COLUMN']->value) || !isset($_smarty_tpl->tpl_vars['LISTING_PRODUCT_COLUMN_MODULE']->value) || !isset($_smarty_tpl->tpl_vars['LISTING_PRODUCT_TABLET']->value) || !isset($_smarty_tpl->tpl_vars['LISTING_PRODUCT_SMALLDEVICE']->value) || !isset($_smarty_tpl->tpl_vars['LISTING_PRODUCT_EXTRASMALLDEVICE']->value) || !isset($_smarty_tpl->tpl_vars['LISTING_PRODUCT_MOBILE']->value)) {?>
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_12159596505d8affd57f8a03_80205075', "setting");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15103595335d8dc6bc180611_69879118', "setting");
 ?>
 
 <?php }?>
@@ -36,7 +36,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_12159596505d8affd5
   <div class="row">
     <div class="col-lg-6 col-md-3 hidden-sm-down total-products">     
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_21423385515d8affd57f8a01_79458501', 'leo_gird_list');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6129877335d8dc6bc180613_44926119', 'leo_gird_list');
 ?>
 
       <?php if ($_smarty_tpl->tpl_vars['listing']->value['pagination']['total_items'] > 1) {?>
@@ -50,7 +50,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_21423385515d8affd5
     <div class="col-lg-6 col-md-9">
       <div class="row sort-by-row">
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14900102615d8affd5800709_90655401', 'sort_by');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_17205470005d8dc6bc18c192_29877020', 'sort_by');
 ?>
 
 
@@ -72,12 +72,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14900102615d8affd5
 </div>
 <?php }
 /* {block "setting"} */
-class Block_12159596505d8affd57f8a03_80205075 extends Smarty_Internal_Block
+class Block_15103595335d8dc6bc180611_69879118 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'setting' => 
   array (
-    0 => 'Block_12159596505d8affd57f8a03_80205075',
+    0 => 'Block_15103595335d8dc6bc180611_69879118',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -90,12 +90,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "setting"} */
 /* {block 'leo_gird_list'} */
-class Block_21423385515d8affd57f8a01_79458501 extends Smarty_Internal_Block
+class Block_6129877335d8dc6bc180613_44926119 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'leo_gird_list' => 
   array (
-    0 => 'Block_21423385515d8affd57f8a01_79458501',
+    0 => 'Block_6129877335d8dc6bc180613_44926119',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -112,12 +112,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'leo_gird_list'} */
 /* {block 'sort_by'} */
-class Block_14900102615d8affd5800709_90655401 extends Smarty_Internal_Block
+class Block_17205470005d8dc6bc18c192_29877020 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'sort_by' => 
   array (
-    0 => 'Block_14900102615d8affd5800709_90655401',
+    0 => 'Block_17205470005d8dc6bc18c192_29877020',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

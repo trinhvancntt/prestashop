@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 02:47:29
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:10
   from 'W:\xampp\htdocs\prestashop\at_undu\modules\appagebuilder\views\templates\hook\ApTabs.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68c681a84300_56480037',
+  'unifunc' => 'content_5d8db4a6be0a14_59392463',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68c681a84300_56480037 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a6be0a14_59392463 (Smarty_Internal_Template $_smarty_tpl) {
 ?> <!-- @file modules\appagebuilder\views\templates\hook\ApTabs -->
 <?php if ($_smarty_tpl->tpl_vars['tab_name']->value == 'ApTabs') {
 echo '<script'; ?>

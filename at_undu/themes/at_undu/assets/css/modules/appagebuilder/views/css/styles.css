@@ -1864,11 +1864,11 @@ div[id^="gmap-stores-list"] > ul {
       .menu-rightsidebar .ApRawHtml, .menu-rightsidebar .block-social {
         display: none; } }
   [dir="rtl"] .menu-rightsidebar {
-    -webkit-transform: translate(-550px, 0);
-    -moz-transform: translate(-550px, 0);
-    -ms-transform: translate(-550px, 0);
-    -o-transform: translate(-550px, 0);
-    transform: translate(-550px, 0); }
+    -webkit-transform: translate(550px, 0);
+    -moz-transform: translate(550px, 0);
+    -ms-transform: translate(550px, 0);
+    -o-transform: translate(550px, 0);
+    transform: translate(550px, 0); }
   .menu-rightsidebar.active {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);

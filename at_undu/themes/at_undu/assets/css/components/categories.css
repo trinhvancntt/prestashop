@@ -61,7 +61,6 @@ $login-image-path:   "../../../../assets/img/modules/leoquicklogin/img/"!default
         margin-left: 0;
         margin-right: inherit; }
   #category .breadcrumb {
-    background: transparent;
     margin-bottom: 60px; }
     @media (max-width: 991px) {
       #category .breadcrumb {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-03 23:27:07
+/* Smarty version 3.1.33, created on 2019-09-27 05:17:43
   from 'W:\xampp\htdocs\prestashop\at_undu\modules\leoslideshow\views\templates\admin\leo_slideshow\imagemanager.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d6f2f0be6cc61_33516203',
+  'unifunc' => 'content_5d8dd3b76fea11_83562105',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d6f2f0be6cc61_33516203 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8dd3b76fea11_83562105 (Smarty_Internal_Template $_smarty_tpl) {
 if (!(isset($_smarty_tpl->tpl_vars['reloadSliderImage']->value) && $_smarty_tpl->tpl_vars['reloadSliderImage']->value == 1)) {?>
 <div class="panel product-tab">
 <h3 class="tab" >

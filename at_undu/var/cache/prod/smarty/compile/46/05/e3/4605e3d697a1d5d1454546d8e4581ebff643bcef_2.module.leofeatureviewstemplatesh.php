@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-17 05:44:25
+/* Smarty version 3.1.33, created on 2019-09-27 04:22:02
   from 'module:leofeatureviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d80aaf9334501_07359025',
+  'unifunc' => 'content_5d8dc6aa096012_42002715',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d80aaf9334501_07359025 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8dc6aa096012_42002715 (Smarty_Internal_Template $_smarty_tpl) {
 if (($_smarty_tpl->tpl_vars['nbReviews_product_extra']->value == 0 && $_smarty_tpl->tpl_vars['too_early_extra']->value == false && ($_smarty_tpl->tpl_vars['customer']->value['is_logged'] || $_smarty_tpl->tpl_vars['allow_guests_extra']->value)) || ($_smarty_tpl->tpl_vars['nbReviews_product_extra']->value != 0)) {?>
 	<div id="leo_product_reviews_block_extra" class="no-print" <?php if ($_smarty_tpl->tpl_vars['nbReviews_product_extra']->value != 0) {?>itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating"<?php }?>>
 		<?php if ($_smarty_tpl->tpl_vars['nbReviews_product_extra']->value != 0) {?>

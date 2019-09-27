@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-04 23:05:19
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:12
   from 'module:leofeatureviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d707b6fcc7e19_74230669',
+  'unifunc' => 'content_5d8db4a8a6d892_72133838',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d707b6fcc7e19_74230669 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a8a6d892_72133838 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['nbReviews']->value) && $_smarty_tpl->tpl_vars['nbReviews']->value > 0) || $_smarty_tpl->tpl_vars['show_zero_product_review']->value) {?>
 
 	<div class="leo-list-product-reviews" <?php if ((isset($_smarty_tpl->tpl_vars['nbReviews']->value) && $_smarty_tpl->tpl_vars['nbReviews']->value > 0)) {?>itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating"<?php }?>>

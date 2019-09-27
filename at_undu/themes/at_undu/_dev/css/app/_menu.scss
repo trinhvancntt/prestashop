@@ -206,7 +206,7 @@
 	    li{
 	    	line-height: 25px;
 	    	float: none;
-	    	border-bottom: 1px solid $border-color;
+	    	border-bottom: 1px dashed $border-color;
 	    	&:last-child {
 	    		border-bottom: none;
 	    	}

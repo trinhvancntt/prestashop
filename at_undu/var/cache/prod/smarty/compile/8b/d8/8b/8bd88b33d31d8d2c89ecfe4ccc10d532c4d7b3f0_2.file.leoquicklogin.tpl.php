@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 02:47:30
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:12
   from 'W:\xampp\htdocs\prestashop\at_undu\themes\at_undu\modules\leoquicklogin\views\templates\hook\leoquicklogin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68c682e9b106_83675662',
+  'unifunc' => 'content_5d8db4a8c6d419_74694632',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68c682e9b106_83675662 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a8c6d419_74694632 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['isLogged']->value) {?>
 	
   <div class="leo-quicklogin-wrapper ap-quick-login js-dropdown popup-over">

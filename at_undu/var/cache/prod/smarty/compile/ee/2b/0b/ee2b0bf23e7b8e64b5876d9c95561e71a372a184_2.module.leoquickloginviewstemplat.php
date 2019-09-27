@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 01:12:02
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:12
   from 'module:leoquickloginviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68b0220e3589_15604703',
+  'unifunc' => 'content_5d8db4a8c23095_36921599',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68b0220e3589_15604703 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a8c23095_36921599 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="lql-social-login clearfix <?php if ($_smarty_tpl->tpl_vars['show_button_text']->value) {?>show-bt-txt<?php }?>">
 	<h3 class="lql-social-login-title">

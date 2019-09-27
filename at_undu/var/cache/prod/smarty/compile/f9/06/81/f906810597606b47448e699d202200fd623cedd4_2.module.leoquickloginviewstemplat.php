@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 01:12:00
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:11
   from 'module:leoquickloginviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68b020c16888_41764372',
+  'unifunc' => 'content_5d8db4a7c55d14_14574602',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68b020c16888_41764372 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a7c55d14_14574602 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['fb_enable']->value && $_smarty_tpl->tpl_vars['fb_app_id']->value != '') {?>
     
     <?php echo '<script'; ?>

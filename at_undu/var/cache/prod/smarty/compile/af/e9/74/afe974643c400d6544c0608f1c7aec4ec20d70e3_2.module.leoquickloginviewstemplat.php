@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 01:12:02
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:12
   from 'module:leoquickloginviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68b022102981_24098279',
+  'unifunc' => 'content_5d8db4a8c46310_07472119',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68b022102981_24098279 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a8c46310_07472119 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="leo-quicklogin-form row<?php if (isset($_smarty_tpl->tpl_vars['leo_form_type']->value) && $_smarty_tpl->tpl_vars['leo_form_type']->value != '') {?> <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['leo_form_type']->value, ENT_QUOTES, 'UTF-8');
 }?>">
 	<?php if (isset($_smarty_tpl->tpl_vars['leo_navigation_style']->value) && $_smarty_tpl->tpl_vars['leo_navigation_style']->value) {?>

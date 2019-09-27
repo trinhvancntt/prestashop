@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 01:53:25
+/* Smarty version 3.1.33, created on 2019-09-27 04:22:19
   from 'W:\xampp\htdocs\prestashop\at_undu\themes\at_undu\templates\layouts\setting.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68b9d5000c84_43034977',
+  'unifunc' => 'content_5d8dc6bb5d1d95_08077060',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68b9d5000c84_43034977 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8dc6bb5d1d95_08077060 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('ENABLE_RESPONSIVE', "1" ,false ,32);
 $_smarty_tpl->_assignInScope('LISTING_GRID_MODE', "grid" ,false ,32);
 $_smarty_tpl->_assignInScope('LISTING_PRODUCT_COLUMN_MODULE', "4" ,false ,32);

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-08-30 01:12:01
+/* Smarty version 3.1.33, created on 2019-09-27 03:05:12
   from 'module:blockgrouptopviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d68b021c12a02_94441854',
+  'unifunc' => 'content_5d8db4a8c03c97_40520878',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d68b021c12a02_94441854 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db4a8c03c97_40520878 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!-- Block languages module -->
 <div id="leo_block_top" class="popup-over e-scale float-md-right">

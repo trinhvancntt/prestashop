@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-13 04:36:36
+/* Smarty version 3.1.33, created on 2019-09-27 03:27:34
   from 'W:\xampp\htdocs\prestashop\at_undu\modules\leobootstrapmenu\views\templates\admin\icon_front_guide.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d7b5514222e07_75441847',
+  'unifunc' => 'content_5d8db9e6963e90_64374335',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d7b5514222e07_75441847 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8db9e6963e90_64374335 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Check list of icons and class name in here ','mod'=>'leobootstrapmenu'),$_smarty_tpl ) );?>
 
 	<a href="https://design.google.com/icons/" target="_blank">https://design.google.com/icons/</a>
