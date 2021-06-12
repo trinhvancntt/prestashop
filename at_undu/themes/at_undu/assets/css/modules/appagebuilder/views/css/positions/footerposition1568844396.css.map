@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AA2CA;;qDAEqD;AACrD,iBAAiB;AAoCjB,iBAAiB;AAWjB,kBAAkB;AAsElB;8CAC8C;AAiH9C;;qDAEqD;AClRrD;;sCAEsC;ACLtC;;GAEG;AAGH;;GAEG;AAmBH;;;;GAIG;AACH,yEAAyE;AC/BzE,6CAA6C;AAE7C,iBAAkB;EACjB,gBAAgB,ED2DU,OAAO;EC1DjC,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,MAAM;EACf,0BAA0B;IAJ3B,iBAAkB;MHmShB,YAA0B,EG9RM,IAAI;MH8RpC,aAA0B,EG7RO,IAAI;MH8RrC,sBAAO;QAKH,aAA0B,EGpSE,IAAI;QHsSlC,YAA0B,EATqC,OAAO;MAExE,sBAAO;QAEH,YAAyB,EGhSI,IAAI;QHqSnC,aAA0B,EATqC,OAAO;EG1RtE,yBAAyB;IAR7B,iBAAkB;MHmShB,YAA0B,EG1RM,IAAI;MH0RpC,aAA0B,EGzRO,IAAI;MH0RrC,sBAAO;QAKH,aAA0B,EGhSE,IAAI;QHkSlC,YAA0B,EATqC,OAAO;MAExE,sBAAO;QAEH,YAAyB,EG5RI,IAAI;QHiSnC,aAA0B,EATqC,OAAO",
-"sources": ["../../../../../../../_dev/css/partials/_mixins.scss","../../../../../../../_dev/css/partials/_variables.scss","../../../../../../../_dev/css/_theme_variables.scss","../../../../../../../_dev/css/modules/appagebuilder/views/css/positions/footerposition1568844396.scss"],
-"names": [],
-"file": "footerposition1568844396.css"
-}
