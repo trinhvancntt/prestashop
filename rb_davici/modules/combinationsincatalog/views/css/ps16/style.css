@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+.addToCartForm {
+	margin-top: 10px;
+}
+
+.addToCartButtonNumber {
+	width: 25%;
+	height: 45px;
+	margin: 0 auto 10px;
+}
+.addToCartButtonBox {
+	margin: 0 auto 30px !important;
+	height: 2.75rem;
+	display: block;
+	font-weight: 600 !important;
+	font-size: 1rem !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-family: "Open Sans",sans-serif !important;
+	box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1) !important;
+	border: none;
+}
+.preLoading {
+	position : absolute;
+	top : 0;
+	bottom : 0;
+	left : 0px;
+	right : 0px;
+	background : rgba(0,0,0,0.6) !important;
+	background-image : url(../../img/spinner.gif) !important;
+	z-index : 999;
+	border : none !important;
+	background-size: 40px !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+.addToCartFormWrapper {
+	padding: 11px;
+	background-color: white;
+}
+.productCombinations {
+	text-align: center;	
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
+	text-align-last: center;
+}
+.addToCartForm  .colorLi {
+	border: 1px solid #d6d4d4;
+	float: left;
+	width: 26px;
+	height: 26px;
+	margin: 4px;
+}
+.addToCartForm .color_pick {
+	background:#F39C11;
+	display: block;
+	width: 22px;
+	height: 22px;
+	margin: 1px;
+	cursor:pointer;
+}
+.addToCartForm .color_pick .radio, .addToCartForm .color_pick input {
+	visibility: hidden;
+}
+.addToCartFormWrapper .combinationsTogether {
+	margin-bottom: 10px;
+}
+.addToCartForm .customSelect {
+	margin-bottom: 10px;
+	border: 1px solid #d6d4d4;
+	border-radius: 0px;
+	width: 100%;
+	color: #9c9b9b;
+	padding: 3px 5px;
+	text-align: center;	
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
+	text-align-last: center;
+}
+.addToCartFormWrapper .product-variants-item {
+	margin-top: 7px;
+}
+.addToCartFormWrapper.inList {
+	padding: 0px;
+}
+.addToCartFormWrapper.inList .variantsProductWrapper{
+	margin-bottom: 10px;	
+}
+
+.addToCartFormWrapper .control-label {
+	bottom: 3px; 
+	position: relative;
+}
+.addToCartFormWrapper.inList .control-label {
+	bottom: -3px !important;
+}
+.addToCartForm .combinationRadio {
+	margin-right: 1.225rem;
+	float: left;
+}
+.addToCartForm .combinationRadio .radio span {
+	top: 0px !important;
+}
+.addToCartFormWrapper .combinationUl {
+	margin: 0 auto;
+	display:table;
+}
+.addToCartFormWrapper.inList .combinationUl {
+	margin: inherit !important;
+}
+.disabledCombination {
+	cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+.disabledCombination:hover {
+	opacity: 0.3;
+}

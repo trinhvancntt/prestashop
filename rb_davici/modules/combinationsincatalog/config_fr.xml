@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>combinationsincatalog</name>
+    <displayName><![CDATA[Les variantes de produits dans la liste de produits]]></displayName>
+    <version><![CDATA[1.5.0]]></version>
+    <description><![CDATA[Module de l&rsquo;affichage des variantes de produits dans la liste de produits avec un bouton &quot;ajouter au panier&quot;]]></description>
+    <author><![CDATA[Singleton software]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Souhaitez-vous vraiment désinstaller ce module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
