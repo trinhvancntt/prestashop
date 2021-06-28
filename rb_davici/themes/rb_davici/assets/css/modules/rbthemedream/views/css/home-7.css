@@ -1,0 +1,27 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+@media (min-width: 1200px) {
+  .container-large {
+    max-width: 1770px;
+    width: auto;
+    margin: auto;
+    padding: 0 15px; } }
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*$dream-image-path: "../../../../assets/img/modules/rbthemedream/img/" !default;
+$catalog-image-path: "../../../../../assets/img/modules/combinationsincatalog/img/" !default;*/
+.rb-section.rb-section-brand, .rb-section.rb-section-productlist {
+  margin-bottom: 50px; }
+
+.rb-section-blog.style-2 .rb-widget-prestashop-widget-Blog .slick-initialized .slick-slide {
+  padding: 0 0; }
+
+/*# sourceMappingURL=home-7.css.map */

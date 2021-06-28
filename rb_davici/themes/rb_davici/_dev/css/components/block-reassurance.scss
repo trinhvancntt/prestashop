@@ -1,0 +1,64 @@
+@import "../theme_variables";
+
+#block-reassurance{
+  margin-top: 1rem;
+  clear: both;
+  @include clearfloat();
+  img{
+    width: 20px;
+    margin-right: 0.625rem;
+  }
+  li .block-reassurance-item{
+    padding: 7px 20px;
+    margin: 10px 0;
+    background: #f4f4f4;
+    border-left: 3px solid $theme-color-default;
+    @include display(flex);
+    @include align-items(center);
+    span{
+      font-weight: 400;
+      margin: 0px;
+      color: $theme-color-senary;
+      font-size: 13px;
+    }
+  }
+  #product &{
+    display: inline-block;
+  }
+}
+
+.blockreassurance_product {
+  margin-top: 1rem;
+  display: block;
+  clear: both;
+  > div {
+    padding: 7px 20px;
+    margin: 10px 0;
+    background: #f4f4f4;
+    border-left: 3px solid $theme-color-default;
+    @include display(flex);
+    @include align-items(center);
+    &.clearfix {
+      background-color: transparent;
+      border-left: 3px solid transparent;
+    }
+    .item-product{
+      padding-top: 0;
+      margin-right: 15px;
+      width: auto;
+      height: auto;
+      display: inline-flex;
+      img,
+      svg {
+        @include size(20px, 20px);
+      }
+    }
+    p {
+      margin-bottom: 0;
+      &.block-title {
+        margin-right: 5px;
+        line-height: 1.5;
+      }
+    }
+  }
+}

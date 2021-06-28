@@ -1,0 +1,45 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+@media (min-width: 1200px) {
+  .container-large {
+    max-width: 1770px;
+    width: auto;
+    margin: auto;
+    padding: 0 15px; } }
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*$dream-image-path: "../../../../assets/img/modules/rbthemedream/img/" !default;
+$catalog-image-path: "../../../../../assets/img/modules/combinationsincatalog/img/" !default;*/
+.rb-section.rb-section-banner, .rb-section.rb-element-x74u2vv {
+  margin-bottom: 70px; }
+.rb-section.rb-element-ieebs5q {
+  margin-bottom: 50px; }
+.rb-section.rb-element-7fx4aw4 {
+  margin-bottom: 90px; }
+
+.rb-section-banner .bottom-1 .rb-widget-banner .rb-dd-banner-subtitle {
+  font-style: italic; }
+
+.rb-section-lookbook .info-lookbook {
+  margin-top: 25px;
+  text-align: center; }
+  @media (max-width: 767px) {
+    .rb-section-lookbook .info-lookbook {
+      margin-bottom: 30px; } }
+.rb-section-lookbook .title-lookbook {
+  margin: 0 0 5px;
+  font-size: 22px;
+  text-transform: capitalize;
+  letter-spacing: 1.6px; }
+.rb-section-lookbook .description-lookbook {
+  font-style: italic; }
+
+/*# sourceMappingURL=home-6.css.map */

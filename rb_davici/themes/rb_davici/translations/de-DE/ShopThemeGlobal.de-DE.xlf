@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="D:\xampp\htdocs\prestashop\rb_covan\admincp" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="347da0da598694c57fff1cbaa197d615">
+        <source>Related Products</source>
+        <target>Verwandte Produkte</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3aea774cdcd8f2c45549f10758a71323">
+        <source>Store information</source>
+        <target>Information speichern</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1300caaefd15b839f37952dc7cc75d82">
+        <source>Call us:</source>
+        <target>Rufen Sie uns an:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0e2fb5b02182fd28b9b96e86ed27838f">
+        <source>Fax:</source>
+        <target>Fax:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a0bfe0853cf82bdf5dcb9b0bac76c357">
+        <source>Email us:</source>
+        <target>Mailen Sie uns:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Kontaktiere uns</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c7a7395519f0547b6676cf02431dcbd0">
+        <source>[1]%phone%[/1]</source>
+        <target>[1]%phone%[/1]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bcb2603bd53059cc5b6aaee6f625c77a">
+        <source>[1]%fax%[/1]</source>
+        <target>[1]%fax%[/1]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ae0bae303e24e9b202cdc9c95baf980c">
+        <source>[1]%email%[/1]</source>
+        <target>[1]%email%[/1]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="be409bc73573ce95718b0ff3faa44940">
+        <source><![CDATA[Join our cosmetics news & offers]]></source>
+        <target><![CDATA[Verbinden Sie unsere Kosmetik News & Angebote]]></target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="dd8c84ae3dc95566dc071d0effc40dd2">
+        <source>Our Products</source>
+        <target>Unsere Produkte</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>Suche</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="122d547aef923ed8ce95ca5509f65537">
+        <source>Follow us on social</source>
+        <target>Folgen Sie uns auf Social</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c654dacdea4ad6f75ad36553a8a947cd">
+        <source>My personal data</source>
+        <target>Meine persönlichen Daten</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a8308387f3ffc2d045d2b6125e74317d">
+        <source>Access to my data</source>
+        <target>Zugriff auf meine Daten</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="915f4446a47b51378e37374cfbb72d7f">
+        <source>At any time, you have the right to retrieve the data you have provided to our site. Click on "Get my data" to automatically download a copy of your personal data on a pdf or csv file.</source>
+        <target>Sie haben jederzeit das Recht, die Daten abzurufen, die Sie unserer Website zur Verfügung gestellt haben. Klicken Sie auf "Meine Daten abrufen", um automatisch eine Kopie Ihrer persönlichen Daten in eine PDF- oder CSV-Datei herunterzuladen.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="49b5d04f5f20820830f080d4674c8669">
+        <source>GET MY DATA TO CSV</source>
+        <target>GET meine Daten CSV</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7b0b06bfe69473081553bcccb12ca068">
+        <source>GET MY DATA TO PDF</source>
+        <target>GET meine Daten PDF</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="91a49c1d45a5d37e85658d01b6f37423">
+        <source><![CDATA[Rectification & Erasure requests]]></source>
+        <target><![CDATA[Korrektur- und Löschanforderungen]]></target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="01cb324ae91e9bd16213cc2945334249">
+        <source>You have the right to modify all the personal information found in the "My Account" page. For any other request you might have regarding the rectification and/or erasure of your personal data, please contact us through our</source>
+        <target>Sie haben das Recht, alle persönlichen Informationen auf der Seite "Mein Konto" zu ändern. Für weitere Anfragen bezüglich der Berichtigung und / oder Löschung Ihrer persönlichen Daten kontaktieren Sie uns bitte über unsere</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="af5efea250326c1c34d69aa9364b482c">
+        <source>contact page</source>
+        <target>Kontaktseite</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="332087a4991d8bc866abd3fd78a2e514">
+        <source>We will review your request and reply as soon as possible.</source>
+        <target>Wir werden Ihre Anfrage und Antwort so schnell wie möglich.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d918f99442796e88b6fe5ad32c217f76">
+        <source>Follow us</source>
+        <target>Folge uns</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b64c83286ace832c0ec837ac4c1c8057">
+        <source>Add To Cart</source>
+        <target>In den Warenkorb</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="cdb2d467fbc37491fdb666ddbb1e405d">
+        <source>Add Compare</source>
+        <target>In Vergleichen</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bea8d9e6a0d57c4a264756b4f9822ed9">
+        <source>My Account</source>
+        <target>Mein Konto</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c87aacf5673fada1108c9f809d354311">
+        <source>Sign out</source>
+        <target>Ausloggen</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d520781e19eed1a7e6bac55fae6c271f">
+        <source>View My Account</source>
+        <target>Mein Konto anzeigen</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f2fdea440d768b85591e936a803c3631">
+        <source>Sign In</source>
+        <target>Einloggen</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1d00e7dce692e8dc3f6877f035e3a616">
+        <source>OR</source>
+        <target>OR</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0ba7583639a274c434bbe6ef797115a4">
+        <source>Register</source>
+        <target>Registrieren</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>E-Mail</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="01a569ddc6cf67ddec2a683f0a5f5956">
+        <source>Forgot your password?</source>
+        <target>Passwort vergessen?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bc910f8bdf70f29374f496f05be0330c">
+        <source>First Name</source>
+        <target>Vorname</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="77587239bf4c54ea493c7033e1dbf636">
+        <source>Last Name</source>
+        <target>Nachname</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3abbd962f6751baf05a19c4ebbc8d0e7">
+        <source>I agree to the</source>
+        <target>Ich stimme dem zu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6a5373df703ab2827a4ba7facdfcf779">
+        <source>Add to Wishlist</source>
+        <target>Auf dem Wunschzettel</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d7e2d3dbf5daf266a0877428e0e1b8fb">
+        <source>Remove from Wishlist</source>
+        <target>Entfernen von Wunschliste</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b26917587d98330d93f87808fc9d7267">
+        <source>Subscribe</source>
+        <target>Abonnieren</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c6e5a0e7fc15a47a781be2c72e43639e">
+        <source>Our store</source>
+        <target>Unser Geschäft</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="28ce1d735efb35333defc59dc4c050d8">
+        <source>Create a captivating CV or résumé in no time! MyCareer has all the elements you may need.</source>
+        <target>Erstellen Sie in kürzester Zeit einen faszinierenden Lebenslauf oder Lebenslauf! MyCareer enthält alle Elemente, die Sie möglicherweise benötigen.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7601c8e861088bd27255e18afaefab6b">
+        <source>%copyright% %year% - Ecommerce software by %prestashop%</source>
+        <target>%copyright% %year% - E-Commerce-Software von %prestashop%</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="482d39b94632c5c01afee20e2ba9cb39">
+        <source>100% authentic products, quick delivery, fast online support, and free gifts almost with every order.</source>
+        <target>100% authentische Produkte, schnelle Lieferung, schneller Online-Support und kostenlose Geschenke bei fast jeder Bestellung.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0885f0c211f74834f0109c5abaf4cdc4">
+        <source>Language:</source>
+        <target>Sprache:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="77295c7d814e7397c55f64ec06313984">
+        <source>Currency:</source>
+        <target>Währung:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3886b61f3455a67e7500f23ea7c2ff9e">
+        <source>Winter-Season Sale Up To 25% OFF Products</source>
+        <target>Winter-Saison-Verkauf Bis zu 25% Rabatt auf Produkte</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2143f8cb66482342b35208bdc3fd949c">
+        <source>Active filters</source>
+        <target>Aktive Filter</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7a1c5301da6b1ce9e4345bd501397045">
+        <source>(no filter)</source>
+        <target>(kein Filter)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5174d1309f275ba6f275db3af9eb3e18">
+        <source>Grid</source>
+        <target>Gitter</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4ee29ca12c7d126654bd0e5275de6135">
+        <source>List</source>
+        <target>Liste</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6f9d01a14011f05fffe48559583fc609">
+        <source>Sort by:</source>
+        <target>Sortiere nach:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d0f369aab921195580d8319855bbb69f">
+        <source>%label%:</source>
+        <target>%label%:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Schließen</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6c5c05a5b907385c60c3baa4087ea1a1">
+        <source>List of sub categories in %name%:</source>
+        <target>Liste der Unterkategorien in %name%:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1d34e1ee316477a8f64a835307f5b84e">
+        <source>List of pages in %category_name%:</source>
+        <target>Liste der Seiten in %category_name%:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Sitemap</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="34c869c542dee932ef8cd96d2f91cae6">
+        <source>Our stores</source>
+        <target>unsere Läden</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="adc4f9f9cccaa450c10977d50da58d8d">
+        <source>About and Contact</source>
+        <target>Über und Kontakt</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8cf04a9734132302f96da8e113e80ce5">
+        <source>Home</source>
+        <target>Zuhause</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="44749712dbec183e983dcd78a7736c41">
+        <source>Date</source>
+        <target>Datum</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ec53a8c4f07baed5d8825072c89799be">
+        <source>Status</source>
+        <target>Status</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="27b4383b976d6be981598d457cc7e62d">
+        <source>We'll be back soon.</source>
+        <target>Wir kommen bald wieder.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7e74146e0ff2e289abfc8bec1d2b2a18">
+        <source>Sorry for the inconvenience.</source>
+        <target>Entschuldigung für die Umstände.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="519ee4cd58a2b719f7113965cc949d24">
+        <source>Search again what you are looking for</source>
+        <target>Weitere Suche, was Sie suchen</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6351030f724f6f42fd11ec9aa6ee8c76">
+        <source>403 Forbidden</source>
+        <target>403 Verboten</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="cf8092a0be7b972d6cee3db90bfaf923">
+        <source>You cannot access this store from your country. We apologize for the inconvenience.</source>
+        <target>Sie können von Ihrem Land aus nicht auf diesen Shop zugreifen. Wir entschuldigen uns für die Unannehmlichkeiten.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

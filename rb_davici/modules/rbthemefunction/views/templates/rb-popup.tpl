@@ -39,9 +39,12 @@
 
                     {if $rb_form == 1}
 	                    <div class="rb-relative-input relative">
-	                    	<input class="inputNew" id="rb-newsletter-popup" type="email" name="email" required="" value="" placeholder="{l s='your@email.com' mod='rbthemefunction'}" />
+	                    	<span class="rb-your-email">
+								<input class="inputNew" id="rb-newsletter-popup" type="email" name="email" required="" value="" placeholder="{l s='your@email.com' mod='rbthemefunction'}" />
+							</span>
 	                    	<button class="rb-send-email">
 	                    		<i class="material-icons">trending_flat</i>
+								{l s='Subscribe' mod='rbthemefunction'}
 	                    	</button>
 	                    </div>
 

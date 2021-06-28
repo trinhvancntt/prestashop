@@ -1,0 +1,48 @@
+@import "../../../../theme_variables";
+
+// section
+.rb-section {
+    &.rb-section-banner {
+        margin-bottom: 70px;
+    }
+}
+
+// rb-section-banner
+.rb-section-banner {
+    &.style-2 {
+        .rb-widget-banner {
+            .rb-dd-banner-content {
+                @include display(inline-grid);
+            }
+            .rb-dd-banner-subtitle {
+                order: 2;
+                font-size: 14px;
+                text-transform: none;
+                letter-spacing: 1px;
+            }
+            .rb-dd-banner-title {
+                order: 1;
+                font-size: 22px;
+                line-height: 25px;
+                letter-spacing: 3.2px;
+                margin: 0 0 7px;
+                text-transform: uppercase;
+            }
+        }
+        .right {
+            .rb-widget-banner {
+                .rb-dd-banner-content {
+                    left: inherit;
+                    right: 60px;
+                }
+            }
+        }
+    }
+}
+
+// rb-col-sm-100
+.rb-col-sm-100 {
+    @media (max-width: 991px) and (min-width: 480px) {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,761 @@
+@import "../../../../theme_variables";
+
+.rb-ajax-loading {
+  display: none;
+}
+.cssload-speeding-wheel {
+  width: 49px;
+  height: 49px;
+  margin: 0 auto;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  @include animation(cssload-spin 575ms infinite linear);
+}
+@keyframes cssload-spin {
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes cssload-spin {
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes cssload-spin {
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes cssload-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes cssload-spin {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rb-loading {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  #loadFacebookG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+  }
+}
+
+#loadFacebookG {
+  width: 125px;
+  height: 125px;
+  display: block;
+  position: relative;
+  margin: auto;
+}
+.facebook_blockG {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
+  float: left;
+  height: 89px;
+  margin-left: 7px;
+  width: 23px;
+  opacity: 0.1;
+  animation-name: bounceG;
+  -o-animation-name: bounceG;
+  -ms-animation-name: bounceG;
+  -webkit-animation-name: bounceG;
+  -moz-animation-name: bounceG;
+  animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  transform: scale(0.7);
+  -o-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+}
+#blockG_1 {
+  animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
+  -ms-animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+}
+#blockG_2 {
+  animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+}
+#blockG_3 {
+  animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+}
+@keyframes bounceG {
+  0% {
+    transform: scale(1); }
+  50% {
+    opacity: .3;
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); }
+}
+@-o-keyframes bounceG {
+  0% {
+    transform: scale(1); }
+  50% {
+    opacity: .3;
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); }
+}
+@-ms-keyframes bounceG {
+  0% {
+    transform: scale(1); }
+  50% {
+    opacity: .3;
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); }
+}
+@-webkit-keyframes bounceG {
+  0% {
+    transform: scale(1); }
+  50% {
+    opacity: .3;
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); }
+}
+@-moz-keyframes bounceG {
+  0% {
+    transform: scale(1); }
+  50% {
+    opacity: .3;
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); }
+}
+
+.send-wishlist {
+  display: none;
+}
+
+/******* STYLE AJAX LOADING **********/
+.cssload-double-torus {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border: 4px double;
+  border-radius: 50%;
+  border-color: transparent rgba(0, 0, 0, 0.9) rgba(0, 0, 0, 0.9);
+  @include animation(cssload-spin 690ms infinite linear);
+}
+@keyframes cssload-spin {
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes cssload-spin {
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes cssload-spin {
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes cssload-spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes cssload-spin {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/******* END STYLE AJAX LOADING **********/
+
+/****** SALE POPUP **********/
+.sale-popup {
+  position: fixed;
+  visibility: hidden;
+  padding: 0;
+  background: #fff;
+  top: auto !important;
+  bottom: 0;
+  right: auto;
+  z-index: 100;
+  left: 20px;
+  @include opacity(0);
+  @include box-shadow(0 0 10px #333);
+  @include border-radius(4px);
+  @include transition(all 0.3s);
+  @include transform(translateY(100px));
+  @media (max-width: 480px) {
+    left: 10px;
+    right: 10px;
+    max-width: 300px;
+  }
+  &.slideUp {
+    visibility: visible;
+    @include opacity(1);
+    @include transform(translateY(-20px));
+  }
+  &.box-center {
+    @include align-items(center);
+  }
+  &.flex {
+    @include display(flex);
+  }
+  .sale-popup-timeago {
+    display: block;
+    color: $theme-color-senary;
+    font-size: 0.85714em;
+    line-height: normal;
+  }
+  .button-close {
+    top: 0px;
+    cursor: pointer;
+    position: absolute;
+    font-family: $font-icon;
+    width: 20px;
+    height: 20px;
+    background: #56cfe1;
+    color: white;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+    right: 0;
+    &::before {
+      content: "\f00d";
+    }
+  }
+  .sale-popup-img {
+    width: 90px;
+    float: left;
+    img {
+      max-height: 90px !important;
+    }
+  }
+  .sale-popup-content {
+    width: calc(100% - 80px);
+    display: block;
+    padding: 0 10px;
+    float: left;
+    text-align: left;
+    @media (max-width: 480px) {
+      max-width: 180px;
+    }
+  }
+  h3 {
+    margin: 0;
+    font-size: 1em;
+    max-width: 255px;
+    font-weight: 700;
+    font-family: $font-family-base;
+    margin-bottom: 5px;
+    &:hover {
+      a {
+        color: $theme-color-default;
+      }
+    }
+  }
+}
+
+/****** END SALE POPUP **********/
+
+/****** POPUP **********/
+.fancyBoxActive:after {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  content: "";
+}
+.rb-popup-flex {
+  width: 100%;
+  height: 100%;
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(flex-end);
+}
+#rb_newsletter_popup {
+  max-width: 343px;
+  margin: 0 5.5%;
+}
+#rb-newsletter-popup {
+  background: none;
+  border: 1px solid $theme-color-secondary;
+  padding: 0 15px 0 45px;
+  color: $body-color;
+  width: 100%;
+  height: 45px;
+  &:focus{
+    outline: 0;
+  }
+}
+.rb-your-email {
+  position: relative;
+  &:before {
+    content: "\e90c";
+    position: absolute;
+    top: -6px;
+    left: 16px;
+    font-family: $font-icon-4;
+    color: #000;
+    font-size: 17px;
+  }
+}
+.rb-send-email {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 45px;
+  padding: 0 30px;
+  margin-top: 20px;
+  color: $white;
+  border: none;
+  text-transform: uppercase;
+  background-color: $theme-color-default;
+  &:hover {
+    color: $white;
+    background-color: $theme-color-fourth;
+  }
+  i {
+    display: none;
+  }
+}
+.rb-email-alert {
+  margin-top: 10px;
+}
+.rb-email {
+  display: none;
+  margin-top: 10px;
+  border: 1px solid #7c7c7c;
+  @include border-radius(22px);
+}
+.rb-popup-text {
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: $font-family-base;
+  }
+  p {
+    font-size: 16px;
+    color: $theme-color-tertiary;
+    margin-bottom: 20px;
+  }
+}
+/****** END POPUP **********/
+
+/****** LOGIN FORM **********/
+.rb-login {
+  .rb-form-container {
+    width: 290px;
+  }
+  .rb-login-form {
+    .title-wrap {
+      @include display(flex);
+      margin-bottom: 20px;
+      h4 {
+        display: inline-block;
+        cursor: pointer;
+        width: 50%;
+        text-align: center;
+        margin: 0;
+        font-weight: 700;
+        color: $theme-color-tertiary;
+        font-family: $font-family-base;
+        font-size: 16px;
+        &.active {
+          color: $theme-color-secondary;
+        }
+      }
+      .login-tab {
+        border-right: 1px solid $border-color;
+      }
+    }
+    .rb-customer-form {
+      display: none;
+      .svgic.input-icon {
+        display: none;
+      }
+      .rb-check-box {
+        margin-bottom: 5px;
+        @include display(flex);
+        @include align-items(center);
+        input,
+        label {
+          display: inline-block;
+          width: auto;
+          margin-bottom: 0;
+          padding-left: 5px;
+          color: $theme-color-senary;
+        }
+      }
+      .register-button {
+        margin-top: 10px;
+      }
+      &.active {
+        display: block;
+      }
+    }
+    .form-wrap {
+      .material-icons {
+        display: none;
+      }
+    }
+    .icon-true {
+      input {
+        background: $white;
+        border: 1px solid $border-color;
+        height: 40px;
+      }
+    }
+
+    .login-button,
+    .register-button {
+      width: 100%;
+      background: $theme-color-secondary;
+      color: $white;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      font-size: 14px;
+      height: 40px;
+      outline: 0;
+      @include border-radius(4px);
+      &:hover {
+        background: $theme-color-default;
+      }
+    }
+    .rb-logout,
+    .rb-account {
+      display: block;
+    }
+  }
+}
+
+/****** END LOGIN FORM **********/
+
+/****** PRODUCT REVIEW **********/
+#rb_review {
+  .alert-info {
+    padding: 15px 20px;
+    background-color: #3d9cd2;
+    border-radius: 2px;
+    color: #fff;
+    clear: both;
+    border-left: 0.61805em solid rgba(0, 0, 0, 0.15);
+  }
+  .modal-header {
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .btn-primary {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 20px;
+  }
+  .review {
+    .comment-text {
+      padding-left: 20px;
+    }
+    .review_button {
+      margin-bottom: 10px;
+      ul {
+        li {
+          > span {
+            @include media-breakpoint-down(xs) {
+              display: block;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+      .btn {
+        padding: 3px 10px;
+        font-size: 13px;
+        text-transform: none;
+        background: #ddd;
+        &:hover {
+          background: $link-hover-color;
+          color: $white;
+        }
+        &.report_btn {
+          margin-top: 10px;
+        }
+      }
+    }
+    .review_author_infos {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+}
+
+.cancel,
+.cancel a {
+  color: #d20000;
+}
+.cancel:before {
+  content: "\f056";
+  font-family: $font-icon;
+  font-size: 14px;
+}
+.cancel,
+.star {
+  overflow: hidden;
+  float: left;
+  margin: 0 1px 0 0;
+  width: 15px;
+  height: auto;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.star_content {
+  display: inline-block;
+}
+
+div.star.star_on,
+div.star.star_hover {
+  color: #fcbe32;
+}
+div.star {
+  color: #d8d8d8;
+}
+div.star:before {
+  content: "\f005";
+  font-family: $font-icon;
+  font-size: 12px;
+}
+
+#criterions_list {
+  list-style-type: none;
+  li {
+    margin-bottom: 10px;
+  }
+  label {
+    display: inline;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+}
+
+.star a {
+  display: block;
+  position: absolute;
+  text-indent: -5000px;
+  font-size: 0;
+}
+
+sup {
+  color: $red;
+}
+
+/****** END PRODUCT REVIEW **********/
+/****** PRODUCT COMPARE **********/
+#module-rbthemefunction-compare,
+#module-rbthemefunction-wishlist {
+  .page-content {
+    padding: 0;
+    border: none;
+  }
+}
+.rb-compare-table {
+  .productscompare-item {
+    width: 300px;
+  }
+  .rb-remove-compare-product {
+    float: right;
+  }
+  .product-availability {
+    display: none;
+  }
+  .add-to-cart,
+  .rb-view-button {
+    width: 100%;
+  }
+  .price {
+    font-size: 16px;
+    font-weight: 700;
+    color: $theme-color-secondary;
+  }
+  .regular-price {
+    color: #888;
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .discount-percentage {
+    color: red;
+  }
+}
+/****** END PRODUCT COMPARE **********/
+
+/****** PRODUCT WISHLIST **********/
+#rb-wishlist {
+  .rb-list-wishlist {
+    margin: 20px 0;
+    overflow-x: auto;
+    tbody {
+      tr {
+        td {
+          &:nth-child(1) {
+            position: relative;
+          }
+          .cssload-container {
+            position: absolute;
+            left: 50%;
+            width: auto;
+            height: auto;
+            @include transform(translateX(-50%));
+          }
+        }
+      }
+    }
+  }
+  .send-wishlist {
+    position: relative;
+    .form-send-wishlist {
+      .input-group-btn {
+        position: absolute;
+        z-index: 9;
+        right: 20px;
+        bottom: 50%;
+        transform: translateY(50%);
+      }
+    }
+    .cssload-container {
+      position: absolute;
+      bottom: 10px;
+      left: 15%;
+    }
+  }
+  .rb-wishlist-product {
+    margin: 30px 0 0;
+    .rb-wishlist-item {
+      padding: 15px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      @include transition(all 0.4s);
+      &:hover {
+        @include box-shadow(0px 2px 15px 2px rgba(0, 0, 0, 0.2));
+      }
+      .thumbnail-container{
+        margin-bottom: 0;
+      }
+      .product-title{
+        width: 100%;
+        height: 25px;
+        margin-top: 10px;
+      }
+    }
+    .delete-wishlist-product{
+      position: relative;
+      text-align: right;
+      .rb-wishlist-delete{
+        padding: 0;
+      }
+      .rb-ajax-loading{
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+}
+#rb-view-wishlist{
+  .rb-wishlist-product {
+    margin: 30px 0 0;
+    .rb-wishlistproduct-item {
+      padding: 15px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      @include transition(all 0.4s);
+      text-align: center;
+      &:hover {
+        @include box-shadow(0px 2px 15px 2px rgba(0, 0, 0, 0.2));
+      }
+      .thumbnail-container{
+        margin-bottom: 0;
+      }
+      .product-title{
+        width: 100%;
+        height: 25px;
+        margin-top: 10px;
+      }
+      .product-price-and-shipping{
+        margin: 10px 0;
+      }
+    }
+  }
+}
+/****** END PRODUCT WISHLIST **********/
+
+.footer_links {
+  clear: both;
+  margin-top: 30px;
+  .btn {
+    background: $theme-color-secondary;
+    color: white;
+    @include display(inline-flex);
+    @include align-items(center);
+    white-space: normal;
+    i {
+      font-size: 14px;
+      padding-right: 3px;
+    }
+  }
+}
+.footer_links li {
+  padding: 5px 0;
+  display: inline-block;
+}
+@media (min-width: 640px) {
+  .footer_links li.pull-xs-right {
+    float: right;
+  }
+}

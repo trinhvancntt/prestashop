@@ -1,0 +1,48 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+@media (min-width: 1200px) {
+  .container-large {
+    max-width: 1770px;
+    width: auto;
+    margin: auto;
+    padding: 0 15px; } }
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*$dream-image-path: "../../../../assets/img/modules/rbthemedream/img/" !default;
+$catalog-image-path: "../../../../../assets/img/modules/combinationsincatalog/img/" !default;*/
+.dropdown {
+  color: #acaaa6; }
+  .dropdown:hover .expand-more {
+    color: #2fb5d2; }
+  .dropdown .expand-more {
+    color: #414141;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .dropdown .active {
+    max-height: 200px;
+    overflow-y: hidden;
+    visibility: visible; }
+  .dropdown select {
+    -moz-appearance: none;
+    border: 0 none;
+    outline: 0 none;
+    color: #414141;
+    background: white; }
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background: none;
+  text-decoration: none;
+  color: #2fb5d2; }
+
+/*# sourceMappingURL=drop-down.css.map */

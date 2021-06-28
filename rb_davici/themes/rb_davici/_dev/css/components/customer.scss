@@ -1,0 +1,401 @@
+@import "../theme_variables";
+
+/*** SOME GENERIC STYLES ***/
+@mixin customer-area-base-box {
+  @include box-shadow(2px 2px 11px 0px rgba(0, 0, 0, 0.1));
+  background: white;
+  padding: 30px;
+}
+
+.table-labeled {
+  th {
+    vertical-align: middle;
+  }
+  td {
+    vertical-align: middle;
+  }
+  .label {
+    font-size: inherit;
+    padding: 4px 6px;
+    margin: 2px;
+    color: white;
+    display: inline-block;
+  }
+}
+.page-order {
+  .table {
+    margin-bottom: 0;
+  }
+  table {
+    th {
+      padding: 8px;
+    }
+    td {
+      padding: 8px;
+    }
+    thead {
+      th {
+        text-align: center;
+      }
+    }
+  }
+}
+#customer-form {
+  .custom-checkbox {
+    @include display(flex);
+    span {
+      flex: none;
+    }
+    label {
+      padding-left: 0.5rem;
+    }
+    em {
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+  }
+}
+
+#authentication {
+  .tooltip.tooltip-bottom {
+    padding: 0;
+    margin: 0;
+  }
+}
+#identity,
+#authentication {
+  .radio-inline {
+    padding: 0;
+    .custom-radio {
+      margin-right: 0;
+    }
+  }
+}
+
+/*** Most of the customer account pages ***/
+.my-account-page-content-wrapper {
+  @include customer-area-base-box;
+  margin: 0 auto;
+  //side menu of my account page
+  .my-account-side-links {
+    border-right: 1px solid $gray-light;
+    > a {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      flex: 0;
+      border-bottom: 1px solid $gray-light;
+      padding: 0.6rem;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+.page-customer-account {
+  #content {
+    @include customer-area-base-box;
+    margin: 0 auto;
+    .order-actions {
+      a {
+        padding: 0 2px;
+      }
+    }
+    .forgot-password {
+      text-align: center;
+      font-size: $font-size-sm;
+      margin-top: 16px;
+      padding-bottom: 15px;
+    }
+    .no-account {
+      text-align: center;
+      font-size: $base-font-size;
+    }
+  }
+}
+/*** Login page ***/
+#authentication {
+  #content {
+    margin-bottom: 70px;
+  }
+  .page-header {
+    text-align: center;
+  }
+}
+
+.page-authentication {
+  #content {
+    @include customer-area-base-box;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+}
+/*** Addresses page ***/
+.page-addresses {
+  .address {
+    border: 1px solid $gray-lighter;
+    margin-bottom: 30px;
+    .address-body {
+      padding: 16px;
+      h4 {
+        font-weight: 700;
+      }
+      address {
+        min-height: 144px;
+      }
+    }
+    .address-footer {
+      border-top: 1px solid $gray-lighter;
+      padding: 8px 16px;
+      a {
+        margin-right: 8px;
+        span {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .addresses-footer {
+    margin: 0 15px;
+    a {
+      span {
+        vertical-align: middle;
+        margin-top: $small-space;
+      }
+    }
+  }
+}
+
+/*** Order details page ***/
+.page-order-detail {
+  .box {
+    @include customer-area-base-box;
+    margin-bottom: 16px;
+  }
+  #order-infos,
+  #order-infos2 {
+    ul {
+      margin: 0;
+    }
+  }
+
+  #order-history {
+    .history-lines {
+      .history-line {
+        padding: 8px 0;
+        border-bottom: 1px solid $gray-lighter;
+        &:last-child {
+          border-bottom: 0;
+        }
+        .label {
+          display: inline-block;
+          margin: 4px 0;
+          color: white;
+          padding: 4px 6px;
+        }
+      }
+    }
+  }
+  .addresses {
+    h4 {
+      font-size: $base-font-size;
+      font-weight: 700;
+    }
+  }
+  #order-products {
+    &.return {
+      margin-bottom: 16px;
+      th {
+        &.head-checkbox {
+          width: 30px;
+        }
+      }
+      td {
+        padding: 1.375rem 0.75rem;
+        &.qty {
+          min-width: 125px;
+          .current {
+            width: 30%;
+            float: left;
+            text-align: right;
+            padding-right: 0.5rem;
+          }
+          .select {
+            width: 70%;
+            float: left;
+            margin: -0.625rem 0;
+            padding-left: 0.25rem;
+            select {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .order-items {
+    padding: 0 !important;
+    .order-item {
+      padding: 16px 16px 0;
+      border-bottom: 1px solid $gray-lighter;
+      .checkbox {
+        width: 30px;
+        float: left;
+        padding: 0 15px;
+      }
+      .content {
+        width: calc(100% - 30px);
+        float: left;
+        padding: 0 15px;
+      }
+      .desc {
+        .name {
+          font-weight: bold;
+        }
+        margin-bottom: 16px;
+      }
+      .qty {
+        margin-bottom: 16px;
+        .q {
+          margin-bottom: 4px;
+        }
+        .s {
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+  .messages {
+    .message {
+      margin-top: 8px;
+      border-bottom: 1px solid $gray-lighter;
+      &:last-child {
+        border-bottom: 0;
+      }
+      > div {
+        margin-bottom: 8px;
+      }
+    }
+  }
+  .customization {
+    margin-top: 12px;
+  }
+}
+/*** Order return page ***/
+#order-return-infos {
+  .thead-default th {
+    color: $gray-darker;
+  }
+  .customization {
+    margin-top: 12px;
+  }
+}
+/*** My account landing page ***/
+.page-my-account {
+  #content {
+    .links {
+      width: 100%;
+      a {
+        text-align: center;
+        display: inline-block;
+        font-size: $base-font-size;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $gray-dark;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        span.link-item {
+          display: block;
+          height: 145px;
+          @include customer-area-base-box;
+        }
+        i {
+          display: block;
+          font-size: 35px;
+          width: 100%;
+          color: $gray-darker;
+          height: 50px;
+        }
+        &:hover {
+          color: $gray-darker;
+          i {
+            color: $theme-color-default;
+          }
+        }
+      }
+    }
+  }
+  .btn-logout{
+    background: #f6f6f6;
+  }
+}
+/*** History page ***/
+#history {
+  .orders {
+    margin: 0 -16px;
+    .order {
+      a {
+        h3 {
+          color: $gray-dark;
+        }
+      }
+      padding: 12px 16px;
+      border-bottom: 1px solid $gray-lighter;
+      .label {
+        display: inline-block;
+        margin: 4px 0;
+        padding: 4px 6px;
+        color: white;
+        border-radius: 3px;
+      }
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+/*** FOOTER ***/
+.page-footer {
+  .account-link {
+    margin: 5px 0;
+    background: #f6f6f6;
+    i {
+      font-size: $base-font-size;
+    }
+    span {
+      font-size: $font-size-sm;
+      vertical-align: middle;
+    }
+  }
+}
+.login-form {
+  margin-top: 15px;
+  .input-group-append{
+    position: absolute;
+    z-index: 9;
+    right: 10px;
+    bottom: 50%;
+    @include transform(translateY(50%));
+    .btn{
+      padding: 0;
+      font-size: 16px;
+      color: $theme-color-senary;
+    }
+  }
+}
+
+/*** Responsive part ***/
+@include media-breakpoint-down(xs) {
+  .my-account-page-content-wrapper {
+    //side menu of my account page
+    .my-account-side-links {
+      border-right: none;
+      border-bottom: 1px solid $gray-lighter;
+      padding-bottom: 1rem;
+      margin-bottom: 1.6rem;
+      margin-right: 3px;
+      margin-left: 3px;
+    }
+  }
+}

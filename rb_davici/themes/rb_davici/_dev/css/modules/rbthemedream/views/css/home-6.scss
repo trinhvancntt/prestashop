@@ -1,0 +1,46 @@
+@import "../../../../theme_variables";
+
+// rb-section
+.rb-section {
+    &.rb-section-banner,
+    &.rb-element-x74u2vv {
+        margin-bottom: 70px;
+    }
+    &.rb-element-ieebs5q {
+        margin-bottom: 50px;
+    }
+    &.rb-element-7fx4aw4 {
+        margin-bottom: 90px;
+    }
+}
+
+// rb-section-banner
+.rb-section-banner {
+    .bottom-1 {
+        .rb-widget-banner {
+            .rb-dd-banner-subtitle {
+                font-style: italic;
+            }
+        }
+    }
+}
+
+// rb-section-lookbook
+.rb-section-lookbook {
+    .info-lookbook {
+        margin-top: 25px;
+        text-align: center;
+        @media (max-width: 767px) {
+            margin-bottom: 30px;
+        }
+    }
+    .title-lookbook {
+        margin: 0 0 5px;
+        font-size: 22px;
+        text-transform: capitalize;
+        letter-spacing: 1.6px;
+    }
+    .description-lookbook {
+        font-style: italic;
+    }
+}

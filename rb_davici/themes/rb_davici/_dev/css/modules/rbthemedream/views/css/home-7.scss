@@ -1,0 +1,23 @@
+@import "../../../../theme_variables";
+
+
+// Section
+.rb-section {
+    &.rb-section-brand,
+    &.rb-section-productlist {
+        margin-bottom: 50px;
+    }
+}
+
+// Blog
+.rb-section-blog {
+    &.style-2 {
+        .rb-widget-prestashop-widget-Blog {
+            .slick-initialized {
+                .slick-slide {
+                    padding: 0 0;
+                }
+            }
+        }        
+    }
+}

@@ -1,0 +1,178 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+@media (min-width: 1200px) {
+  .container-large {
+    max-width: 1770px;
+    width: auto;
+    margin: auto;
+    padding: 0 15px; } }
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*$dream-image-path: "../../../../assets/img/modules/rbthemedream/img/" !default;
+$catalog-image-path: "../../../../../assets/img/modules/combinationsincatalog/img/" !default;*/
+.rb-section.rb-section-slideshow {
+  margin-bottom: 65px; }
+.rb-section.rb-section-services {
+  margin-bottom: 40px; }
+.rb-section.rb-section-instagram, .rb-section.rb-section-testimonial {
+  margin-bottom: 100px; }
+.rb-section.rb-element-e8r6dom {
+  margin-bottom: 0; }
+
+.rb-section-testimonial {
+  padding: 0; }
+  .rb-section-testimonial .rb-testimonial-meta-inner .item {
+    padding: 30px 35px 25px;
+    border: 1px solid #eaeaea; }
+    @media (max-width: 479px) {
+      .rb-section-testimonial .rb-testimonial-meta-inner .item {
+        padding: 30px 15px 25px; } }
+  .rb-section-testimonial .rb-testimonial-image {
+    display: none; }
+  .rb-section-testimonial .rb-testimonial-name {
+    font-size: 12px;
+    font-weight: 700; }
+  .rb-section-testimonial .testimonial-customer-position {
+    font-size: 14px; }
+  .rb-section-testimonial .rb-testimonial-details {
+    position: relative;
+    padding-left: 40px; }
+    .rb-section-testimonial .rb-testimonial-details:before {
+      content: "";
+      width: 22px;
+      height: 1px;
+      background: #000;
+      display: inline-block;
+      vertical-align: middle;
+      position: absolute;
+      top: 7px;
+      left: 0; }
+
+.center.style-7 .rb-widget-banner {
+  position: relative; }
+  .center.style-7 .rb-widget-banner .rb-dd-banner-subtitle {
+    line-height: 30px;
+    padding-top: 15px;
+    display: inline-block;
+    background: #ff6f00;
+    color: #FFFFFF;
+    position: absolute;
+    right: 55px;
+    writing-mode: vertical-lr; }
+    @media (max-width: 479px) {
+      .center.style-7 .rb-widget-banner .rb-dd-banner-subtitle {
+        right: 0; } }
+    .center.style-7 .rb-widget-banner .rb-dd-banner-subtitle:before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      border-width: 15px;
+      border-style: solid;
+      border-color: #ff6f00;
+      border-bottom-color: transparent; }
+  .center.style-7 .rb-widget-banner .rb-dd-banner-content {
+    position: unset;
+    -webkit-transform: inherit;
+    -moz-transform: inherit;
+    -ms-transform: inherit;
+    -o-transform: inherit;
+    transform: inherit; }
+  .center.style-7 .rb-widget-banner div.rb-dd-banner-description {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 40px;
+    right: 40px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+.center.style-7 .title-banner {
+  font-size: 40px;
+  color: #FFFFFF; }
+  @media (max-width: 479px) {
+    .center.style-7 .title-banner {
+      font-size: 20px; } }
+.center.style-7 .bwp-image-description {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 20px; }
+  @media (max-width: 479px) {
+    .center.style-7 .bwp-image-description {
+      font-size: 14px;
+      margin-bottom: 10px; } }
+.center.style-7 .button {
+  font-size: 16px;
+  line-height: 34px;
+  border: 2px solid #FFFFFF;
+  display: inline-block;
+  padding: 0 28px;
+  color: #FFFFFF;
+  border-radius: 20px; }
+  .center.style-7 .button:hover {
+    border-color: #ff6f00;
+    background-color: #ff6f00; }
+
+.left.style-1 .rb-widget-banner .rb-dd-banner-content {
+  top: 32%;
+  -webkit-transform: translateY(-32%);
+  -moz-transform: translateY(-32%);
+  -ms-transform: translateY(-32%);
+  -o-transform: translateY(-32%);
+  transform: translateY(-32%); }
+.left.style-1 .rb-widget-banner .rb-button {
+  border-radius: 20px; }
+
+.rb-section-newsletter-box .rb-column-gap-default {
+  background-image: url(../../../../../img/modules/rbthemedream/img//bg-newsletter-h3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 64px 0 145px; }
+  @media (max-width: 767px) {
+    .rb-section-newsletter-box .rb-column-gap-default {
+      background-position: center right; } }
+.rb-section-newsletter-box .rb-element-xe4rnvx .rb-column-wraprb-element-populated {
+  padding: 0 90px; }
+  @media (max-width: 1199px) {
+    .rb-section-newsletter-box .rb-element-xe4rnvx .rb-column-wraprb-element-populated {
+      padding: 0 30px; } }
+  @media (max-width: 767px) {
+    .rb-section-newsletter-box .rb-element-xe4rnvx .rb-column-wraprb-element-populated {
+      padding: 0 15px; } }
+.rb-section-newsletter-box .rb-widget-icon-box .rb-icon-box-wrapper {
+  text-align: left;
+  color: #FFFFFF; }
+.rb-section-newsletter-box .rb-widget-icon-box .rb-icon-box-icon {
+  color: #FFFFFF; }
+.rb-section-newsletter-box .rb-widget-icon-box .rb-heading-title {
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 50px; }
+  @media (max-width: 767px) {
+    .rb-section-newsletter-box .rb-widget-icon-box .rb-heading-title {
+      font-size: 30px;
+      line-height: 35px; } }
+.rb-section-newsletter-box .rb-widget-icon-box p {
+  color: #FFFFFF;
+  font-size: 20px; }
+@media (max-width: 991px) {
+  .rb-section-newsletter-box .ps-emailsubscription-block {
+    text-align: left; } }
+.rb-section-newsletter-box .ps-emailsubscription-block form input[type="email"] {
+  border-color: #FFFFFF;
+  border-radius: 0; }
+.rb-section-newsletter-box .ps-emailsubscription-block .block_content {
+  margin-left: 0; }
+
+/*# sourceMappingURL=home-3.css.map */

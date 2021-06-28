@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>rbsizeguide</name>
+	<displayName><![CDATA[Rb Size Guide]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[This is great module for customer select product.]]></description>
+	<author><![CDATA[R_B]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

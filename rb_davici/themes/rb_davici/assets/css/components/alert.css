@@ -1,0 +1,57 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+@media (min-width: 1200px) {
+  .container-large {
+    max-width: 1770px;
+    width: auto;
+    margin: auto;
+    padding: 0 15px; } }
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*$dream-image-path: "../../../../assets/img/modules/rbthemedream/img/" !default;
+$catalog-image-path: "../../../../../assets/img/modules/combinationsincatalog/img/" !default;*/
+.ps-alert-error {
+  margin-bottom: 0; }
+
+.ps-alert-error .item,
+.ps-alert-success .item {
+  align-items: center;
+  border: 2px #ff4c4c solid;
+  display: flex;
+  background-color: #ff4c4c;
+  margin-bottom: 1rem; }
+  .ps-alert-error .item i,
+  .ps-alert-success .item i {
+    border: 15px #ff4c4c solid;
+    display: flex; }
+    .ps-alert-error .item i svg,
+    .ps-alert-success .item i svg {
+      background-color: #ff4c4c;
+      width: 24px;
+      height: 24px; }
+  .ps-alert-error .item p,
+  .ps-alert-success .item p {
+    background-color: #fff;
+    margin: 0;
+    padding: 18px 20px 18px 20px;
+    width: 100%; }
+
+.ps-alert-success {
+  padding: 4px 4px 44px 4px; }
+  .ps-alert-success .item {
+    border-color: #4cbb6c;
+    background-color: #4cbb6c; }
+    .ps-alert-success .item i {
+      border-color: #4cbb6c; }
+      .ps-alert-success .item i svg {
+        background-color: #4cbb6c; }
+
+/*# sourceMappingURL=alert.css.map */

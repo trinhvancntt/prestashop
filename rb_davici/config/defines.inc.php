@@ -26,7 +26,7 @@
 
 /* Debug only */
 if (!defined('_PS_MODE_DEV_')) {
-define('_PS_MODE_DEV_', true);
+define('_PS_MODE_DEV_', false);
 }
 /* Leo theme */
 if (!defined('_LEO_MODE_DEV_')) {

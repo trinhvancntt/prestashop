@@ -1,0 +1,32 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+@media (min-width: 1200px) {
+  .container-large {
+    max-width: 1770px;
+    width: auto;
+    margin: auto;
+    padding: 0 15px; } }
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*$dream-image-path: "../../../../assets/img/modules/rbthemedream/img/" !default;
+$catalog-image-path: "../../../../../assets/img/modules/combinationsincatalog/img/" !default;*/
+.sitemap ul.nested {
+  margin-left: 20px; }
+.sitemap ul li {
+  font-size: 0.9rem; }
+.sitemap .block-links ul > li {
+  margin-bottom: 0.2rem; }
+  .sitemap .block-links ul > li:last-child {
+    margin-bottom: 0; }
+.sitemap .block-links li > ul {
+  margin-top: 0.2rem; }
+
+/*# sourceMappingURL=sitemap.css.map */

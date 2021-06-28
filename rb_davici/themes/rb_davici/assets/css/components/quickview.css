@@ -1,0 +1,80 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+@media (min-width: 1200px) {
+  .container-large {
+    max-width: 1770px;
+    width: auto;
+    margin: auto;
+    padding: 0 15px; } }
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/*$dream-image-path: "../../../../assets/img/modules/rbthemedream/img/" !default;
+$catalog-image-path: "../../../../../assets/img/modules/combinationsincatalog/img/" !default;*/
+.quickview.quickview-second-modal {
+  z-index: 999990; }
+.quickview .modal-dialog {
+  max-width: 1024px;
+  width: calc(100% - 30px); }
+.quickview .modal-content {
+  min-height: 450px;
+  border: none; }
+.quickview .modal-body {
+  min-height: 380px; }
+.quickview .layer {
+  display: none; }
+.quickview .images-container {
+  margin: 0; }
+  .quickview .images-container .expander {
+    display: none !important; }
+.quickview .images-container-bottom .product-cover {
+  margin: 0; }
+.quickview .images-container-left .row > .col-left-product-thumbs {
+  display: none; }
+.quickview .images-container-left .row > .col-left-product-cover {
+  flex: 100%;
+  max-width: 100%; }
+.quickview .mask {
+  display: none !important; }
+.quickview .quickview-info {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  max-height: 620px;
+  overflow-y: auto; }
+.quickview button.close {
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 3; }
+.quickview .js-quickview-np-btn {
+  position: absolute;
+  top: 50%;
+  z-index: 22;
+  display: block;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 3rem;
+  line-height: 3rem;
+  opacity: 0.8;
+  transition: opacity 0.2s cubic-bezier(0.7, 0, 0.3, 1); }
+  .quickview .js-quickview-np-btn:hover {
+    opacity: 1; }
+.quickview #js-quickview-prev-btn {
+  left: -3.5rem;
+  padding: 0.8rem 1rem 0.8rem 0.8rem; }
+.quickview #js-quickview-next-btn {
+  right: -3.5rem;
+  padding: 0.8rem 0.8rem 0.8rem 1rem; }
+.quickview .social-sharing {
+  margin-bottom: 0; }
+@media (max-width: 1100px) {
+  .quickview .js-quickview-np-btn {
+    display: none; } }
+
+/*# sourceMappingURL=quickview.css.map */

@@ -1,0 +1,458 @@
+@import "../../../../theme_variables";
+
+#module-rbthemeblog-single {
+	#content-wrapper {
+		.page-header {
+			h1 {
+				font-size: 28px;
+			}
+		}
+		.rbblog__post p {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+	#wrapper > .row {
+		@include display(flex);
+	}
+	#right-column {
+		order: 2;
+	}
+	.page-content {
+		border: none;
+		padding: 0;
+	}
+	#main .page-header {
+		text-align: left;
+	}
+}
+#module-v-single #content.card,
+#module-rbthemeblog-category #content.card,
+#module-rbthemeblog-list #content.card {
+	padding: 0;
+	background: none;
+	@include box-shadow(none);
+	border: 0;
+}
+.rbblog__mostViewed__menu {
+	margin-top: 0.625rem;
+	li {
+		&:last-child a {
+			border-bottom: none;
+		}
+		a {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+			width: 100%;
+			display: inline-block;
+			margin: 0.3125rem 0 0;
+			padding-bottom: 0.1875rem;
+			font-size: 14px;
+		}
+	}
+}
+.rbblog__mostViewed__footer {
+	text-align: center;
+	.btn-primary {
+		color: white;
+	}
+}
+.rbblog__listing {
+	padding: 0;
+}
+.rbblog__listing__post.first-in-line {
+	clear: left;
+}
+.rbblog__listing__post__wrapper {
+	background: #fff;
+	margin-bottom: 1.563rem;
+	border: 1px solid #efefef;
+	@include transition(all 0.3s ease);
+	&:hover {
+		@include box-shadow(0 0 30px 0 rgba(0, 0, 0, 0.07));
+	}
+}
+.rbblog__listing__post__wrapper__content {
+	padding: 20px 20px 0;
+	.blog-headline {
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 15px;
+	}
+	.blog_description {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
+		overflow: hidden;
+		margin-bottom: 25px;
+	}
+}
+.rbblog__listing__post__wrapper__content__footer {
+	margin: 0 -20px;
+	padding: 0 20px;
+	height: 60px;
+	border-top: 1px solid #efefef;
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+	.btn {
+		background: $theme-color-default;
+		padding: 7px 15px;
+		font-size: 14px;
+		&:hover {
+			background: $theme-color-fourth;
+		}
+	}
+}
+.rbblog__listing__post__wrapper__content__footer__category {
+	margin-left: 15px;
+	i {
+		color: #727272;
+	}
+	time,
+	a,
+	span {
+		position: relative;
+		top: 2px;
+		margin-left: 2px;
+		color: #727272;
+	}
+	.rbblog__listing__post__wrapper__footer {
+		background: #efefef;
+		padding: 0 1.25rem;
+	}
+}
+
+.rbblog__listing__post__wrapper__footer {
+	margin-bottom: 15px;
+	@include display(flex);
+	@include align-items(center);
+}
+.rbblog__listing__post__wrapper__footer__block {
+	padding-right: 0.763rem;
+	i {
+		color: #727272;
+		font-size: 15px;
+	}
+	span,
+	time {
+		position: relative;
+		top: 2px;
+		margin-left: 2px;
+		color: #727272;
+		font-size: 14px;
+	}
+	.rbblog__listing__pagination {
+		margin-top: 1.5rem;
+	}
+}
+.rbblog__listing__pagination > div {
+	color: #7a7a7a;
+}
+@media (max-width: 767px) {
+	.rbblog__listing__pagination__list {
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.rbblog__listing__pagination__list li {
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.rbblog__listing__pagination__list li:first-child,
+	.rbblog__listing__pagination__list li:last-child {
+		display: block;
+		overflow: auto;
+		margin: 10px 0;
+	}
+}
+@media (max-width: 767px) {
+	.rbblog__listing__pagination__list li:first-child a,
+	.rbblog__listing__pagination__list li:last-child a {
+		float: none;
+	}
+}
+
+.rbblog__postInfo {
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 20px 0;
+		@include display(flex);
+		@media (max-width: 991px) {
+			display: block;
+			overflow: auto;
+		}
+		li {
+			color: #727272;
+			@include display(inline-flex);
+			@include align-items(center);
+			@media (max-width: 991px) {
+				float: left;
+				width: 50%;
+			}
+			a {
+				color: inherit;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			&:last-child:after {
+				display: none;
+			}
+			&:after {
+				content: "";
+				height: 10px;
+				background: #cecece;
+				width: 2px;
+				margin: 0 13px;
+				display: inline-block;
+				@media (max-width: 991px) {
+					display: none;
+				}
+			}
+			i {
+				color: #727272;
+				font-size: 15px;
+				margin-right: 3px;
+				width: auto;
+				height: auto;
+			}
+			span {
+				color: #727272;
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+.rbblog__post {
+	background: #fff;
+	margin-bottom: 60px;
+}
+.rbblog__post-featured img {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.rbblog__share {
+	ul {
+		list-style-type: none;
+		margin: 25px 0;
+		padding: 0;
+		@include display(flex);
+		@media (max-width: 991px) {
+			display: block;
+		}
+		li {
+			margin-right: 16px;
+			@media (max-width: 991px) {
+				margin: 0 0 10px;
+				.btn {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.rbblog__featuredProducts {
+	margin-bottom: 60px;
+	> h2 {
+		margin-bottom: 25px;
+	}
+}
+.rbblog__comments {
+	margin: 30px 0;
+	padding: 30px 0;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+	> h2 {
+		font-weight: 500;
+	}
+	.alert a {
+		color: inherit;
+	}
+	> ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		> li {
+			padding: 1.563rem 1.25rem;
+			&:nth-child(odd) {
+				background: white;
+			}
+			&:nth-child(even) {
+				background: #f6f6f6;
+			}
+			.rbblog__comments__authorInfo {
+				list-style-type: none;
+				margin: 0 0 12px;
+				padding: 0;
+				@include display(flex);
+				@media (max-width: 991px) {
+					display: block;
+				}
+				li {
+					font-size: 14px;
+					color: #727272;
+					&:last-child:after {
+						display: none;
+					}
+					&:after {
+						content: "";
+						height: 10px;
+						background: #cecece;
+						width: 2px;
+						margin: 0 18px;
+						display: inline-block;
+						@media (max-width: 991px) {
+							display: none;
+						}
+					}
+				}
+			}
+			.rbblog__comments__authorInfo__author {
+				color: #38b5d0 !important;
+				font-weight: 600;
+			}
+			.rbblog__comments__text {
+				color: #414141;
+				p {
+					color: #414141;
+					margin: 0;
+					padding: 0;
+				}
+			}
+		}
+	}
+}
+.rbblog__comments-empty {
+	margin-bottom: 0;
+	h2 {
+		font-weight: 500;
+	}
+}
+
+.rbblog__addComment {
+	.alert a {
+		color: inherit;
+	}
+	> h2 {
+		font-weight: 500;
+	}
+}
+.rbblog__addComment__form {
+	background: #ffffff;
+	padding: 0 1.25rem;
+	@media (max-width: 991px) {
+		.form-footer .btn-primary {
+			width: 100%;
+			float: none !important;
+		}
+	}
+}
+
+.rbblog__seo {
+	display: none;
+}
+.rbblog__categoryInfo {
+	border-bottom: 2px solid #d6d6d6;
+	margin: 30px 0;
+	img {
+		width: 100%;
+		height: auto;
+	}
+	p {
+		font-size: 14px;
+		color: #727272;
+		margin: 30px 0;
+	}
+}
+.btn-facebook {
+	@include box-shadow(2px 2px 4px 0 rgba(0, 0, 0, 0.2));
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 0.5rem 1.25rem;
+	background: #415994;
+	color: white;
+	i {
+		margin-right: 8px;
+		font-size: 19px;
+		position: relative;
+		top: 2px;
+	}
+	&:hover {
+		color: white;
+		background: #203363;
+	}
+}
+
+.btn-twitter {
+	@include box-shadow(2px 2px 4px 0 rgba(0, 0, 0, 0.2));
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 0.5rem 1.25rem;
+	background: #4ba0ec;
+	color: white;
+	i {
+		margin-right: 8px;
+		font-size: 19px;
+		position: relative;
+		top: 1px;
+	}
+	&:hover {
+		color: white;
+		background: #2f7bbf;
+	}
+}
+
+.btn-google {
+	@include box-shadow(2px 2px 4px 0 rgba(0, 0, 0, 0.2));
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 0.5rem 1.25rem;
+	background: #bd403b;
+	color: white;
+	i {
+		margin-right: 8px;
+		font-size: 19px;
+	}
+	&:hover {
+		color: white;
+		background: #a12520;
+	}
+}
+
+.btn-pinterest {
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 0.5rem 1.25rem;
+	background: #ae2626;
+	color: white;
+	@include box-shadow(2px 2px 4px 0 rgba(0, 0, 0, 0.2));
+	i {
+		margin-right: 8px;
+		font-size: 19px;
+	}
+	&:hover {
+		color: white;
+		background: #8e1010;
+	}
+}
+
+#rbblogrecentposts {
+	.h1 {
+		text-align: center;
+		position: relative;
+		margin-bottom: 1.5rem;
+		a {
+			float: right;
+			text-transform: none;
+			font-size: 80%;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+	}
+}

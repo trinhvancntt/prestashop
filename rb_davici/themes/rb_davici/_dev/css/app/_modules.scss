@@ -1,0 +1,129 @@
+@import "./vars/modules.vars";
+
+.popup-over {
+  position: relative;
+  color: $theme-color-secondary;
+  .popup-title {
+    color: $theme-color-secondary;
+    text-transform: uppercase;
+    padding: 10px 0 10px 25px;
+    text-decoration: none;
+    @include display(flex);
+    @include align-items(center);
+    @media (max-width: 480px) {
+      padding: 10px 0 10px 15px;
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      padding: 10px 0px 10px 10px;
+    }
+    &:focus {
+      outline: 0;
+    }
+    &:hover {
+      color: $theme-color-default;
+    }
+    i {
+      font-size: 20px;
+    }
+    .user_title {
+      display: none;
+    }
+  }
+  .popup-content {
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    background: $white;
+    border: none;
+    min-width: 160px;
+    z-index: 999999;
+    left: inherit;
+    right: 0;
+    text-align: left;
+    @include opacity(0);
+    @include transform(scaleY(0));
+    @include rounded-corners(3px);
+    @include transition(all 0.3s linear 0s);
+    @include box-shadow(0 2px 10px rgba(0, 0, 0, 0.1));
+    @include animation(auto);
+    @include transform-origin(top);
+    a {
+      color: $theme-color-tertiary;
+      padding: 5px 0;
+      font-size: 14px;
+      &:hover {
+        color: $theme-color-default;
+      }
+      i {
+        font-size: 13px;
+        width: 20px;
+      }
+    }
+    .block_name {
+      font-weight: 700;
+    }
+    li {
+      display: block;
+      padding: 5px 0;
+      a {
+        img {
+          vertical-align: 0;
+        }
+      }
+      &.current {
+        color: $theme-color-default;
+        a {
+          color: $theme-color-default;
+        }
+      }
+    }
+  }
+  &.active {
+    .popup-content {
+      visibility: visible;
+      @include opacity(1);
+      @include transform(scaleY(1));
+    }
+  }
+}
+
+.blockcart {
+  position: relative;
+  padding: 10px 10px 10px 25px;
+  @media (max-width: 480px) {
+    padding: 10px 0px 10px 15px;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    padding: 10px 0px 10px 10px;
+  }
+  #cart-toogle {
+    @include display(flex);
+    i {
+      font-size: 18px;
+      font-weight: bold;
+      position: relative;
+    }
+    &:hover {
+      color: $theme-color-default;
+    }
+  }
+  .cart-products-count-btn {
+    position: absolute;
+    width: 22px;
+    height: 15px;
+    line-height: 17px;
+    background: $theme-color-default;
+    font-size: 10px;
+    font-family: $font-family-base;
+    text-align: center;
+    color: $white;
+    font-weight: 500;
+    top: -10px;
+    right: -13px;
+    @include border-radius(15px);
+  }
+  .info-wrapper {
+    display: none;
+  }
+}

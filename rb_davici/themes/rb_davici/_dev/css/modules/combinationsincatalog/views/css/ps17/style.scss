@@ -1,0 +1,87 @@
+@import "../../../../../theme_variables";
+
+.addToCartForm {
+	margin-top: 10px;
+}
+.addToCartButtonNumber {
+	padding: 9px 10px;
+	float: left;
+	width: 20%;
+	height: 2.75rem;
+}
+.addToCartButtonBox {
+	margin: 0 auto 30px !important;
+	height: 2.75rem;
+	display: block;
+	font-weight: 600 !important;
+	font-size: 1rem !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-family: "Open Sans", sans-serif !important;
+	box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1) !important;
+	border: none;
+}
+.preLoading {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, 0.6) !important;
+	background-image: url(#{$catalog-image-path}ajax-loader-white.gif) !important;
+	z-index: 999;
+	border: none !important;
+	background-size: 30px !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+.addToCartFormWrapper {
+	padding: 10px 0;
+	// background-color: white;
+	height: 126px;
+	@include box-shadow(none);
+	.product-variants-item {
+		margin-top: 7px;
+	}
+	.control-label {
+		bottom: 5px;
+		position: relative;
+	}
+	.form-control-select {
+		margin-bottom: 10px;
+	}
+	.groupUl {
+	}
+	.groupUl li {
+		float: left !important;
+	}
+	.groupLi {
+		margin-right: 0.625rem;
+	}
+	.add-to-cart {
+		background: $theme-color-secondary;
+		i {
+			font-size: 0;
+			width: auto;
+			height: auto;
+			margin-right: 10px;
+			&:before {
+				content: "\e900";
+				font-family: "noun-icons" !important;
+				font-size: 16px;
+			}
+		}
+		&:active,
+		&:hover {
+			background: $theme-color-default;
+			color: $white;
+		}
+	}
+}
+#productCombinations {
+	font-size: 14px;
+	text-align: center;
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
+	text-align-last: center;
+}

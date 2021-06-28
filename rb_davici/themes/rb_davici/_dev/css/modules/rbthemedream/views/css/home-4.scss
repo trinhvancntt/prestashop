@@ -1,0 +1,148 @@
+@import "../../../../theme_variables";
+
+// HEADER
+#index, #module-rbthemedream-live {
+    #header:not(.rb-sticky) {
+        @media (min-width: 1199px) {
+            .header-desktop {
+                position: absolute;
+                width: 100%;
+                z-index: 9;
+            }
+            // MENU
+            .layout_layout1:not(.ybc_vertical_menu) {
+                .rb_megamenu_content {
+                    .ybc-menu-toggle {
+                        color: $white;
+                        .icon-bar {
+                            background-color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// section
+.rb-section {
+    &.rb-section-instagram,
+    &.rb-section-brand {
+        margin-bottom: 70px;
+    }
+    &.rb-section-blog {
+        margin-bottom: 120px;
+    }
+}
+
+// bottom
+.bottom {
+    .rb-widget-banner {
+        .rb-dd-banner-content {
+            top: inherit;
+            bottom: 10%;
+            @include transform(translateY(-10%));
+        }
+        .rb-dd-banner-title {
+            margin-top: 2px;
+            margin-bottom: 5px;
+            font-size: 30px;
+        }
+        .rb-dd-banner-subtitle {
+            color: $theme-color-tertiary;
+            font-size: 12px;
+        }
+        .rb-button {
+            padding: 0;
+            font-weight: 500;
+            color: $theme-color-secondary;
+            background: transparent;
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 2px;
+                background: $theme-color-secondary;
+                @include transition(all .3s ease);
+            }
+            &:hover {
+                color: $theme-color-default;
+                &:before {
+                    width: 50%;
+                    background: $theme-color-default;
+                }
+            }
+        }
+    }
+    &.left {
+        .rb-widget-banner {
+            .rb-button {
+                &:before {
+                    left: 0;
+                }
+            }
+        }
+    }
+    &.right {
+        .rb-widget-banner {
+            .rb-dd-banner-content {
+                left: inherit;
+                right: 10%;
+                text-align: right;
+            }
+            .rb-button {
+                &:before {
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+
+// rb-section-countdown
+.rb-section-countdown {
+    background-image: url(#{$dream-image-path}/bg-deal-h4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 125px 0 170px;
+}
+
+.rb-countdown {
+    @include display(flex);
+    .rb-coundown-title {
+        order: 1;
+        font-size: 24px;
+        color: $white;
+        writing-mode: vertical-rl;
+        margin: 0;
+        position: absolute;
+        white-space: nowrap;
+        top: 0;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        @include transform(rotate(-180deg));
+        &:before {
+            content: "\e90a";
+            font-family: $font-icon-4;
+            display: inline-block;
+            margin-bottom: 10px;
+            @include transform(rotate(-180deg));
+        }
+    }
+    .rb-clock {
+        order: 3;
+    }
+    .rb-coundown-description {
+        order: 2;
+        padding-left: 90px;
+    }
+    .product-title {
+        a {
+            font-size: 40px;
+            color: $white;
+        }
+    }
+}

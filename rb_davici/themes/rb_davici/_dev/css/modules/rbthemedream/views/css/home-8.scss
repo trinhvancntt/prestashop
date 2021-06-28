@@ -1,0 +1,12 @@
+@import "../../../../theme_variables";
+
+// Section
+.rb-section {
+    &.rb-section-brand,
+    &.rb-section-instagram {
+        margin-bottom: 50px;
+    }
+    &.rb-section-blog {
+        margin-bottom: 130px;
+    }
+}

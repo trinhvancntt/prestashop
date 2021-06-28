@@ -1,0 +1,364 @@
+@import "../../../../theme_variables";
+
+// HEADER
+#index, #module-rbthemedream-live {
+    #header:not(.rb-sticky) {
+        @media (min-width: 1199px) {
+            .header-desktop {
+                position: absolute;
+                width: 100%;
+                z-index: 9;
+            }
+            // MENU
+            .layout_layout1:not(.ybc_vertical_menu) {
+                .rb_megamenu_content {
+                    .ybc-menu-toggle {
+                        color: $white;
+                        .icon-bar {
+                            background-color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// SECTION
+.rb-section {
+    &.rb-section-instagram {
+        margin-bottom: 0;
+    }
+    &.rb-section-bannertext {
+        margin-bottom: 50px;
+    }
+}
+
+// rb-section-category
+.rb-section-category {
+    .box-title {
+        &.style-1 {
+          .rb-widget-heading {
+            &:after {
+                left: 0;
+            }
+            .rb-heading-title {
+                text-align: left;
+            }
+          }
+        }
+    }
+    .slick-slide-inner {
+        position: relative;
+        @media (max-width: 767px) {
+            margin-top: 30px;
+        }
+        > div {
+            position: absolute;
+            font-size: 20px;
+            left: 35px;
+            bottom: 30px;
+            color: $theme-color-secondary;
+            @media (max-width: 991px) {
+                left: 15px;
+                bottom: 10px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+// rb-section-productcombination
+.rb-section-productcombination {
+    @media (max-width: 1200px) {
+        margin: 80px 0 50px;
+    }
+    .rb-element-wv3caof {
+        position: absolute;
+        left: -100px;
+        bottom: 0;
+        z-index: 1;
+        @media (max-width: 1200px) {
+            display: none;
+        }
+    }
+    .thumbnail-container {
+        @include display(flex);
+        @include align-items(center);
+        @media (max-width: 991px) {
+            padding: 0 15px;
+        }
+        @media (max-width: 767px) {
+            @include display(inherit);
+        }
+        .product-title {
+            a {
+                font-size: 40px;
+                line-height: 44px;
+            }
+        }
+        .product-image {
+            flex: 0 0 50%;
+            @media (min-width: 768px) and (max-width: 991px) {
+                flex: 0 0 45%;
+            }
+        }
+        .product-meta {
+            padding-top: 0;
+            padding-left: 20px;
+            @media (max-width: 767px) {
+                padding-left: 0;
+            }
+        }
+        .product-price-and-shipping {
+            margin-bottom: 12px;
+            .price {
+                font-size: 24px;
+            }
+        }
+        .product-brand {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            a {
+                text-transform: capitalize;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+        .product-description-short {
+            display: block;
+        }
+        .functional-buttons {
+            position: unset;
+            text-align: left;
+            visibility: visible;
+            @include opacity(1);
+            > div {
+                .rb-btn-product {
+                    border-radius: 0;
+                    box-shadow: none;
+                    border: 1px solid $theme-color-default;
+                    background: transparent;
+                    color: $theme-color-default;
+                    padding: 0 15px;
+                    margin: 0;
+                    width: auto;
+                    height: 35px;
+                    @include transition(all .3s);
+                    i {
+                        display: none;
+                    }
+                    .icon-title {
+                        position: unset;
+                        background: transparent;
+                        color: $theme-color-default;
+                        font-size: 12px;
+                        padding: 0;
+                        letter-spacing: 0;
+                        visibility: visible;
+                        @include opacity(1);
+                        @include transform(none);
+                        &:before {
+                            content: none;
+                        }
+                    }
+                    &:hover {
+                        background-color: $theme-color-default;
+                        .icon-title {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .addToCartFormWrapper {
+        height: auto;
+        #group_1 {
+            .radio-label {
+                min-width: 50px;
+                padding: 15px 10px;
+                border: $main-border;
+                text-align: center;
+                display: inline-block;
+                @include transition(all .3s);
+            }
+            .input-radio {
+                left: 0;
+            }
+        }
+        .input-color:checked + span, 
+        .input-color:hover + span, 
+        .input-radio:checked + span, 
+        .input-radio:hover + span {
+            color: $black;
+            border-color: $black !important;
+        }
+        .input-color {
+            @include size(30px,30px);
+            &:checked+span.color {
+                border: 1px solid $black;
+            }
+        }
+        .radio-label {
+            min-height: inherit;
+        }
+        .color, 
+        .custom-checkbox input[type="checkbox"]+span.color {
+            display: inline-block;
+            cursor: pointer;
+            background-size: contain;
+            position: relative;
+            margin-right: 0.625rem;
+            @include size(30px,30px);
+            @include border-radius(100%);
+        }
+        .product-variants-item {
+            padding: 10px 0;
+            margin-top: 0;
+            @include display(flex);
+            @include align-items(center);
+            label {
+                margin-bottom: 0;
+                display: inline-flex;
+            }
+        }
+        .control-label {
+            margin-right: 15px;
+            bottom: inherit;
+            color: $theme-color-secondary;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .form-control-select {
+            margin-bottom: 0;
+        }
+        .add-to-cart {
+            width: inherit !important;
+            padding: 0 50px !important;
+            text-transform: uppercase;
+            position: relative;
+            font-size: 13px;
+            font-weight: 700;
+            @media (max-width: 479px) {
+                padding: 0 15px !important;
+            }
+            &:before {
+                font-size: 18px;
+                position: relative;
+                line-height: 1;
+                margin-right: 10px;
+                content: "\e900";
+                font-family: $font-icon-4;
+                top: 2px;
+            }
+            i {display: none;}
+        }
+        .groupUl li {
+            display: inline-flex;
+        }
+    }
+    .addToCartButtonNumber {
+        @include border-radius(0);
+    }
+    .variantsProductWrapper {
+        margin-bottom: 10px;
+    }
+}
+
+.rb-button-wrapper {
+    .rb-button.rb-size-small {
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 30px;
+        fill: #000;
+        color: #000;
+        background-color: rgba(2,1,1,0);
+        border-style: solid;
+        border-width: 0 0 1px;
+        border-color: #000;
+        border-radius: 0;
+        padding: 0;
+        .fa {
+            margin-right: 0;
+        }
+        &:hover {
+            color: $theme-color-default;
+            border-color: $theme-color-default;
+        }
+    }
+}
+
+// rb-section-services
+.rb-section-services {
+    padding-bottom: 50px;
+    border-bottom: $main-border;
+    .rb-widget-icon {
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+        .rb-icon-wrapper {
+            font-size: 60px;
+            line-height: 60px;
+            margin-right: 0;
+        }
+        .rb-box-title {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        .rb-box-description {
+            font-size: 15px;
+        }
+    }
+    .rb-widget-container {
+        padding: 45px 15px 30px;
+        border: $main-border;
+        text-align: center;
+        @include border-radius(4px);
+        @media(max-width: 767px) {
+            margin-top: 30px;
+        }
+    }
+    .rb-column {
+        @media(min-width: 768px) and (max-width: 992px) {
+            width: 50%;
+            max-width: 50%;
+            margin: 15px 0;
+        }
+    }
+}
+
+// rb instagram
+.rb-section-instagram {
+    .rb-widget-icon {
+        @include justify-content(center);
+        .rb-icon-wrapper {
+            font-size: 42px;
+        }
+    }
+}
+
+// rb-section-tabproduct
+.rb-section-tabproduct {
+    .rb-widget-heading {
+      .rb-heading-title {
+        position: relative;
+        padding-bottom: 25px;
+        text-transform: none;
+        font-size: 30px;
+        font-weight: 500;
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 48px;
+            height: 2px;
+            left: 0;
+            background: $theme-color-default;
+        }
+      }
+    }
+  }
